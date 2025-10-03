@@ -48,19 +48,56 @@
               };
               service.textSearch(request, (results, status) => {
                 let infoContent;
+
                 if (status === google.maps.places.PlacesServiceStatus.OK && results[0]) {
                   const place = results[0];
+                  // get first photo if available
+                  const photoUrl = place.photos?.[0]?.getUrl({ maxWidth: 200 }) || '';
+                  
                   infoContent = `
-                    <strong>${place.name}</strong><br>
-                    ${place.formatted_address || ""}<br>
-                    Rating: ${place.rating || "N/A"}<br>
-                    <a href="${place.website || "#"}" target="_blank">Website</a>
+                    <div style="display: flex; font-family: Arial; font-size: 13px; max-width: 250px;">
+                      ${photoUrl ? `<img src="${photoUrl}" alt="${place.name}" style="width: 80px; height: 80px; object-fit: cover; margin-right: 10px; border-radius: 4px;">` : ''}
+                      <div>
+                        <strong style="font-size: 14px;">${place.name}</strong><br>
+                        ${place.formatted_address || ''}<br>
+                        ${place.rating ? `⭐ ${place.rating} / 5<br>` : ''}
+                        ${place.website ? `<a href="${place.website}" target="_blank">Website</a>` : ''}
+                      </div>
+                    </div>
                   `;
                 } else {
                   infoContent = `<strong>${name}</strong>`;
                 }
                 const infoWindow = new google.maps.InfoWindow({ content: infoContent });
-                marker.addListener("click", () => infoWindow.open(map, marker));
+                
+                let isSticky = false;
+
+                marker.addListener("mouseover", () => {
+                  if (!isSticky) {
+                    infoWindow.setContent(infoContent);
+                    infoWindow.open(map, marker);
+                  }
+                });
+
+                marker.addListener("mouseout", () => {
+                  if (!isSticky) {
+                    infoWindow.close();
+                  }
+                });
+                marker.addListener("click", () => {
+                  // If already sticky on this marker, unstick and close
+                  if (isSticky && infoWindow.anchor === marker) {
+                    infoWindow.close();
+                    isSticky = false;
+                  } else {
+                    // Stick the info window on click
+                    infoWindow.setContent(infoContent);
+                    infoWindow.open(map, marker);
+                    isSticky = true;
+                  }
+                });
+                
+                
               });
             }
           })
