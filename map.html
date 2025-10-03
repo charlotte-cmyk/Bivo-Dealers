@@ -1,0 +1,73 @@
+<body>
+    <title>Shops Map with Custom Pins and Labels</title>
+    <style>
+      #map {
+        height: 600px;
+        width: 100%;
+      }
+    </style>
+    <script>
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: { lat: 39.8283, lng: -98.5795 }        });
+        const service = new google.maps.places.PlacesService(map);
+        // Your KML URL
+        const kmlUrl = "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealers-(1).kml";
+        fetch(kmlUrl)
+          .then(response => response.text())
+          .then(kmlText => {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(kmlText, "application/xml");
+            const placemarks = xmlDoc.getElementsByTagName("Placemark");
+            for (let i = 0; i < placemarks.length; i++) {
+              const placemark = placemarks[i];
+              const name = placemark.getElementsByTagName("name")[0]?.textContent || "Unnamed";
+              const coordsText = placemark.getElementsByTagName("coordinates")[0]?.textContent.trim();
+              if (!coordsText) continue;
+              const coords = coordsText.split(",");
+              const lat = parseFloat(coords[1]);
+              const lng = parseFloat(coords[0]);
+              // Custom icon URL
+              const customIcon = {
+                url: "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealer-Icon%20copy.png",
+                scaledSize: new google.maps.Size(24, 33) // Adjust size as needed
+              };
+              // Marker with label
+              const marker = new google.maps.Marker({
+                position: { lat, lng },
+                map: map,
+                title: name,
+                icon: customIcon,
+              });
+              // Fetch Google Places info
+              const request = {
+                query: name,
+                location: marker.position,
+                radius: 500
+              };
+              service.textSearch(request, (results, status) => {
+                let infoContent;
+                if (status === google.maps.places.PlacesServiceStatus.OK && results[0]) {
+                  const place = results[0];
+                  infoContent = `
+                    <strong>${place.name}</strong><br>
+                    ${place.formatted_address || ""}<br>
+                    Rating: ${place.rating || "N/A"}<br>
+                    <a href="${place.website || "#"}" target="_blank">Website</a>
+                  `;
+                } else {
+                  infoContent = `<strong>${name}</strong>`;
+                }
+                const infoWindow = new google.maps.InfoWindow({ content: infoContent });
+                marker.addListener("click", () => infoWindow.open(map, marker));
+              });
+            }
+          })
+          .catch(err => console.error("Failed to fetch KML:", err));
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvj_ZEQfd7wBcdY_wdzMdxM2aTZaBEVZo&libraries=places&callback=initMap" async defer></script>
+    <h2>Shops Map with Custom Pins and Labels</h2>
+    <div id="map"></div>
+</body>
