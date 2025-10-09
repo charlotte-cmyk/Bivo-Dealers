@@ -1,0 +1,167 @@
+<body>
+  <title>Shops Map with Custom Pins and Labels</title>
+  <style>
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+
+    .custom-popup {
+      position: absolute;
+      transform: translate(-50%, -100%);
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #22336e;
+      display: none;
+      z-index: 100;
+    }
+
+    .custom-popup img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+  </style>
+
+  <h2>Shops Map with Custom Pins and Labels</h2>
+  <div id="map"></div>
+
+  <script>
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: { lat: 39.8283, lng: -98.5795 }
+      });
+
+      const service = new google.maps.places.PlacesService(map);
+      const kmlUrl = "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealers-(1).kml";
+
+      fetch(kmlUrl)
+        .then(res => res.text())
+        .then(kmlText => {
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(kmlText, "application/xml");
+          const placemarks = xml.getElementsByTagName("Placemark");
+
+          for (let i = 0; i < placemarks.length; i++) {
+            const placemark = placemarks[i];
+            const name = placemark.getElementsByTagName("name")[0]?.textContent || "Unnamed";
+            const coordsText = placemark.getElementsByTagName("coordinates")[0]?.textContent.trim();
+            if (!coordsText) continue;
+
+            const [lng, lat] = coordsText.split(",").map(Number);
+
+            const marker = new google.maps.Marker({
+              position: { lat, lng },
+              map,
+              icon: {
+                url: "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealer-Icon%20copy.png",
+                scaledSize: new google.maps.Size(24, 33)
+              },
+              title: name
+            });
+
+            const request = {
+              query: name,
+              location: marker.position,
+              radius: 500
+            };
+
+            service.textSearch(request, (results, status) => {
+              if (status === google.maps.places.PlacesServiceStatus.OK && results[0]) {
+                const place = results[0];
+                service.getDetails(
+                  {
+                    placeId: place.place_id,
+                    fields: ["name", "formatted_address", "rating", "website", "photos"]
+                  },
+                  (detailedPlace, detailStatus) => {
+                    if (detailStatus === google.maps.places.PlacesServiceStatus.OK) {
+                      const photoUrl =
+                        detailedPlace.photos?.[0]?.getUrl({ maxWidth: 200 }) || "";
+                      const html = `
+                        <div class="custom-popup-content" style="display:flex;">
+                          ${photoUrl ? `<img src="${photoUrl}" alt="${detailedPlace.name}">` : ""}
+                          <div>
+                            <strong style="font-size:14px; color:#263a79;">${detailedPlace.name}</strong><br>
+                            ${detailedPlace.formatted_address || ""}<br>
+                            ${detailedPlace.rating ? `⭐ ${detailedPlace.rating}/5<br>` : ""}
+                            ${detailedPlace.website
+                              ? `<a href="${detailedPlace.website}" target="_blank" style="color:#003366;text-decoration:underline;">Website</a>`
+                              : ""}
+                          </div>
+                        </div>`;
+                      createOverlay(map, marker, html);
+                    } else {
+                      createOverlay(map, marker, `<div><strong>${name}</strong></div>`);
+                    }
+                  }
+                );
+              } else {
+                createOverlay(map, marker, `<div><strong>${name}</strong></div>`);
+              }
+            });
+          }
+        });
+    }
+
+    function createOverlay(map, marker, html) {
+      let isSticky = false;
+      const div = document.createElement("div");
+      div.className = "custom-popup";
+      div.innerHTML = html;
+
+      const overlay = new google.maps.OverlayView();
+      overlay.onAdd = function () {
+        this.getPanes().floatPane.appendChild(div);
+      };
+
+      overlay.draw = function () {
+        const projection = this.getProjection();
+        const pos = projection.fromLatLngToDivPixel(marker.getPosition());
+        if (pos) {
+          div.style.left = pos.x + "px";
+          div.style.top = pos.y + "px";
+        }
+      };
+
+      overlay.onRemove = function () {
+        div.remove();
+      };
+
+      overlay.setMap(map);
+
+      // Keep it in sync when map pans/zooms
+      google.maps.event.addListener(map, "bounds_changed", () => {
+        overlay.draw();
+      });
+
+      marker.addListener("mouseover", () => {
+        if (!isSticky) div.style.display = "block";
+      });
+
+      marker.addListener("mouseout", () => {
+        if (!isSticky) div.style.display = "none";
+      });
+
+      marker.addListener("click", () => {
+        if (isSticky) {
+          div.style.display = "none";
+          isSticky = false;
+        } else {
+          div.style.display = "block";
+          isSticky = true;
+        }
+      });
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvj_ZEQfd7wBcdY_wdzMdxM2aTZaBEVZo&libraries=places&callback=initMap" async defer></script>
+</body>
