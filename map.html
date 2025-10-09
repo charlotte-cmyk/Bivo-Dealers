@@ -1,80 +1,125 @@
 <body>
-    <title>Shops Map with Custom Pins and Labels</title>
-    <style>
-      #map {
-        height: 600px;
-        width: 100%;
-      }
-    </style>
-    <script>
-      function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
-          center: { lat: 39.8283, lng: -98.5795 }        });
-        const service = new google.maps.places.PlacesService(map);
-        // Your KML URL
-        const kmlUrl = "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealers-(1).kml";
-        fetch(kmlUrl)
-          .then(response => response.text())
-          .then(kmlText => {
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(kmlText, "application/xml");
-            const placemarks = xmlDoc.getElementsByTagName("Placemark");
-            for (let i = 0; i < placemarks.length; i++) {
-              const placemark = placemarks[i];
-              const name = placemark.getElementsByTagName("name")[0]?.textContent || "Unnamed";
-              const coordsText = placemark.getElementsByTagName("coordinates")[0]?.textContent.trim();
-              if (!coordsText) continue;
-              const coords = coordsText.split(",");
-              const lat = parseFloat(coords[1]);
-              const lng = parseFloat(coords[0]);
-              // Custom icon URL
-              const customIcon = {
-                url: "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealer-Icon%20copy.png",
-                scaledSize: new google.maps.Size(24, 33) // Adjust size as needed
-              };
-              // Marker with label
-              const marker = new google.maps.Marker({
-                position: { lat, lng },
-                map: map,
-                title: name,
-                icon: customIcon,
-              });
-              // Fetch Google Places info
-              const request = {
-                query: name,
-                location: marker.position,
-                radius: 500
-              };
-              service.textSearch(request, (results, status) => {
-                let infoContent;
+  <title>Shops Map with Custom Pins and Labels</title>
+  <style>
+    #map {
+      height: 600px;
+      width: 100%;
+    }
+  </style>
+  <script>
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: { lat: 39.8283, lng: -98.5795 }
+      });
 
-                if (status === google.maps.places.PlacesServiceStatus.OK && results[0]) {
-                  const place = results[0];
-                  // get first photo if available
-                  const photoUrl = place.photos?.[0]?.getUrl({ maxWidth: 200 }) || '';
-                  
-                  infoContent = `
-                    <div style="display: flex; font-family: Arial; font-size: 13px; max-width: 250px;">
-                      ${photoUrl ? `<img src="${photoUrl}" alt="${place.name}" style="width: 80px; height: 80px; object-fit: cover; margin-right: 10px; border-radius: 4px;">` : ''}
-                      <div>
-                        <strong style="font-size: 14px;">${place.name}</strong><br>
-                        ${place.formatted_address || ''}<br>
-                        ${place.rating ? `⭐ ${place.rating} / 5<br>` : ''}
-                        ${place.website ? `<a href="${place.website}" target="_blank">Website</a>` : ''}
+      const service = new google.maps.places.PlacesService(map);
+
+      const kmlUrl = "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealers-(1).kml";
+
+      fetch(kmlUrl)
+        .then(response => response.text())
+        .then(kmlText => {
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(kmlText, "application/xml");
+          const placemarks = xmlDoc.getElementsByTagName("Placemark");
+
+          for (let i = 0; i < placemarks.length; i++) {
+            const placemark = placemarks[i];
+            const name = placemark.getElementsByTagName("name")[0]?.textContent || "Unnamed";
+            const coordsText = placemark.getElementsByTagName("coordinates")[0]?.textContent.trim();
+
+            if (!coordsText) continue;
+
+            const coords = coordsText.split(",");
+            const lat = parseFloat(coords[1]);
+            const lng = parseFloat(coords[0]);
+
+            const customIcon = {
+              url: "https://raw.githubusercontent.com/charlotte-cmyk/Bivo-Dealers/main/Bivo-Dealer-Icon%20copy.png",
+              scaledSize: new google.maps.Size(24, 33)
+            };
+
+            const marker = new google.maps.Marker({
+              position: { lat, lng },
+              map: map,
+              title: name,
+              icon: customIcon,
+            });
+
+            const request = {
+              query: name,
+              location: marker.position,
+              radius: 500
+            };
+
+            service.textSearch(request, (results, status) => {
+              if (status === google.maps.places.PlacesServiceStatus.OK && results[0]) {
+                const place = results[0];
+                const placeId = place.place_id;
+
+                // Now get full details
+                service.getDetails({
+                  placeId: placeId,
+                  fields: ["name", "formatted_address", "rating", "website", "photos"]
+                }, (detailedPlace, detailStatus) => {
+                  let infoContent;
+                  if (detailStatus === google.maps.places.PlacesServiceStatus.OK) {
+                    const photoUrl = detailedPlace.photos?.[0]?.getUrl({ maxWidth: 200 }) || '';
+
+                    infoContent = `
+                      <div style="display: flex; font-family: Arial; font-size: 13px; max-width: 250px;">
+                        ${photoUrl ? `<img src="${photoUrl}" alt="${detailedPlace.name}" style="width: 80px; height: 80px; object-fit: cover; margin-right: 10px; border-radius: 4px;">` : ''}
+                        <div>
+                          <strong style="font-size: 14px; font-weight: bold">${detailedPlace.name}</strong><br>
+                          ${detailedPlace.formatted_address || ''}<br>
+                          ${detailedPlace.rating ? `⭐ ${detailedPlace.rating} / 5<br>` : ''}
+                          ${detailedPlace.website ? `<a href="${detailedPlace.website}" target="_blank">Website</a>` : ''}
+                        </div>
                       </div>
-                    </div>
-                  `;
-                } else {
-                  infoContent = `<strong>${name}</strong>`;
-                }
-                const infoWindow = new google.maps.InfoWindow({ content: infoContent });
-                
+                    `;
+                  } else {
+                    infoContent = `<strong>${name}</strong>`;
+                  }
+
+                  const infoWindow = new google.maps.InfoWindow({ content: infoContent });
+                  let isSticky = false;
+
+                  marker.addListener("mouseover", () => {
+                    if (!isSticky) {
+                      infoWindow.setContent(infoContent);
+                      infoWindow.open(map, marker);
+                    }
+                  });
+
+                  marker.addListener("mouseout", () => {
+                    if (!isSticky) {
+                      infoWindow.close();
+                    }
+                  });
+
+                  marker.addListener("click", () => {
+                    if (isSticky && infoWindow.anchor === marker) {
+                      infoWindow.close();
+                      isSticky = false;
+                    } else {
+                      infoWindow.setContent(infoContent);
+                      infoWindow.open(map, marker);
+                      isSticky = true;
+                    }
+                  });
+                });
+
+              } else {
+                // No match found in Places API, fallback info
+                const infoWindow = new google.maps.InfoWindow({
+                  content: `<strong>${name}</strong>`
+                });
+
                 let isSticky = false;
 
                 marker.addListener("mouseover", () => {
                   if (!isSticky) {
-                    infoWindow.setContent(infoContent);
                     infoWindow.open(map, marker);
                   }
                 });
@@ -84,27 +129,26 @@
                     infoWindow.close();
                   }
                 });
+
                 marker.addListener("click", () => {
-                  // If already sticky on this marker, unstick and close
                   if (isSticky && infoWindow.anchor === marker) {
                     infoWindow.close();
                     isSticky = false;
                   } else {
-                    // Stick the info window on click
-                    infoWindow.setContent(infoContent);
                     infoWindow.open(map, marker);
                     isSticky = true;
                   }
                 });
-                
-                
-              });
-            }
-          })
-          .catch(err => console.error("Failed to fetch KML:", err));
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvj_ZEQfd7wBcdY_wdzMdxM2aTZaBEVZo&libraries=places&callback=initMap" async defer></script>
-    <h2>Shops Map with Custom Pins and Labels</h2>
-    <div id="map"></div>
+              }
+            });
+          }
+        })
+        .catch(err => console.error("Failed to fetch KML:", err));
+    }
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvj_ZEQfd7wBcdY_wdzMdxM2aTZaBEVZo&libraries=places&callback=initMap" async defer></script>
+
+  <h2>Shops Map with Custom Pins and Labels</h2>
+  <div id="map"></div>
 </body>
