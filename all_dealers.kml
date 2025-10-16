@@ -125,6 +125,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTafMGsmUZOEUFEvhNQ_UP-sSJGRBMeranuy5Ou7xHYTe_GTsZTblnhPF3TrUTE43pAyZEimseGGi4AeV3BtFwxlJcgs7qfJXyHBflGlAHJFNe4-xY-TKBk5_aALdZepGsTx3eDaXx5kCvoWJorwaC9X5O12a419EWdazMQ4hmIKVNXI-UssXpnR--JuvJShNrXBPH7xO-x28hQUE7HBKH1oHEGEFKtjcEsg7r3PQlezrCxOPW_JsbBcjk?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+        <coordinates>
+          37.87911, -122.29613,0
+        </coordinates>
+      </Point>
       </Placemark>
       <Placemark>
         <name>Bloomington REI</name>
@@ -9525,6 +9530,11 @@ Richmond, VT 05477</value>
             <value/>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            47.62031, -122.32958,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Broken Spoke Bike Studio</name>
