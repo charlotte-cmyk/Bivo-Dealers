@@ -93,6 +93,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQRUbu5NpItw-GXUV6yse2hd7YinJot0BMg6aBw0wrIKamJpN5WD2TNbwXACr9LWWXyw1y4z8KacqtDg1fxb1j3MLPWyxvYBc5iD81HOA2Asypj9jZGoAfsVoJ97hsgoM4Fmr0pC_q3UT26euqsQtWuLWMxQMyQq87Cbm5D7O_St5nh1wd8Znb6pUG2E3Dkwn5wD0LcAbq3U9a8fqMRKEjN5_gZ-ZMxMYzANdqFwamTAUGp_YpVXqI6_xA?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+          <Point>
+          <coordinates>
+            47.62031, -122.32958,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Berkeley REI</name>
@@ -127,7 +132,7 @@
         </ExtendedData>
         <Point>
         <coordinates>
-          37.87911, -122.29613,0
+          37.87911,-122.29613,0
         </coordinates>
       </Point>
       </Placemark>
@@ -9530,11 +9535,6 @@ Richmond, VT 05477</value>
             <value/>
           </Data>
         </ExtendedData>
-        <Point>
-          <coordinates>
-            47.62031, -122.32958,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Broken Spoke Bike Studio</name>
