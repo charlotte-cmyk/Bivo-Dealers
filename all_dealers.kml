@@ -93,9 +93,9 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQRUbu5NpItw-GXUV6yse2hd7YinJot0BMg6aBw0wrIKamJpN5WD2TNbwXACr9LWWXyw1y4z8KacqtDg1fxb1j3MLPWyxvYBc5iD81HOA2Asypj9jZGoAfsVoJ97hsgoM4Fmr0pC_q3UT26euqsQtWuLWMxQMyQq87Cbm5D7O_St5nh1wd8Znb6pUG2E3Dkwn5wD0LcAbq3U9a8fqMRKEjN5_gZ-ZMxMYzANdqFwamTAUGp_YpVXqI6_xA?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
-          <Point>
+        <Point>
           <coordinates>
-            47.62031, -122.32958,0
+            -122.32958,47.62031,0
           </coordinates>
         </Point>
       </Placemark>
@@ -132,7 +132,7 @@
         </ExtendedData>
         <Point>
         <coordinates>
-          37.87911,-122.29613,0
+          -122.29613,37.87911,0
         </coordinates>
       </Point>
       </Placemark>
@@ -167,6 +167,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTMWHUl2-4obyDSPqfwmjzP6gTjzzRaETExRyK8J8mRXcRIrLOGNX04eSYG9EwUz6HManTReFUbEK0oDOO1XOtho7y46CTSg2i4mHJz16vscVOCMbrR0Qp_4AEe1sL-wcSAVQNhbkZRl-VZe_oqmGlCJSQr9BEVy5osD48-8w-mNY0yeWiJmiAvasIcozmeW8i5GEs6_3KO8pBg7zMhM2Y6gcDemV2qtucoqSOY6zNIzS7ZSU-m3PbQ8iQ?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+        <coordinates>
+          -93.29128,44.86066,0
+        </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Anchorage REI</name>
@@ -199,6 +204,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTDLKvwG180paTSVPdwL97EkbcjqC9W241P0eYdgD8hed-Y98D6SXnPW17G-mCdMnDns3ulf7J5-9VGY2aA4Upg8YW-PuhDuVypCbhD-tC5SboCwM7-xyMJZ5xXsWSgPRkRcByIKKpRnKpxpZ9peQv3QtIW4I8b49dFkLU8YK4mAi3wEv64bwRfHbY2Sd3CUtkS1BGvJrfarjDMj-97T8AJ9E5h0Zk6_RAfardxasCgMkvIbSMiuC7Z92g?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -149.8753,61.19428,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Tustin REI</name>
@@ -231,6 +241,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTHRtaCBu7On2f5Ce_FxqkkR5_dpSEEKwZfucLdWS-71ucG1VBqaC9_b-bOtP2UwiT2daTxtZgxuGJedLFKjfITqsV1w9eqQMX6sApFtB00USM7Bu4V47wvQeHwhhnS8xg349v6ahfdaOTOmX6AN7hVhMkFmHj_QDprTYb1osmeodAvLxF8FtAnDYQT3JD65hbbE9sGOeFMXU89xYlRFPCm-5agQS-uisprQmPUBJQ9WcPFtMUCjqDZraQ?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -117.79572,33.72143,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Denver REI</name>
@@ -263,6 +278,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQgpeSiwBEW5AzmGH_owVWE6-o4aFgyB4TifVBM-yqY-ik2ffZLoGUWAvc76nVd-MfRmYdIgXY_fiOOkVbdSLnJwwFRLmop2PvlKnsEAp2Hsw2uRPZBXYIMPqXus5aWemNwaA5gpElKc5Z5i7GsKTTVtAriHMhFuRkZvYLFWehGBbE1GJh6et3p9UVck-6HMcKS3qFy0ij6WwBCncOWcB_RTL1FC54WP3Rh7k6NuoOYfVsegzVoYt9mjuk?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+             -105.00985,39.75562,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Salt Lake City REI</name>
@@ -295,6 +315,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTfgwXMaoE_jLaVPrAhmO-tgY5V2Dq20gpxWu316OcnB0x7lu7vxiYvSkqjTc1gRMUplei_DLw2ZKlGYmKBdk8WS3Eg-lgkXRLeHX-VaNP7cD9_79t94NYVYu9UU_STag6Cv9Qepz-oQpDl3tzqpS6OTwDJvFnkvWo3mELvfwhPYdkoVE7C86kbaveA-hUyZuR0FfRUeQNUv6_JasuooIU48Mp9qEFXXw4a_BpnGLfgmG6vG3y3OccGAP4?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.80122,40.70093,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Bellevue REI</name>
@@ -327,6 +352,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQSWN59HQAIy-KQvBAY_iWP2XX7ha5PmDYPumWQXDv0yiwMzmzI1BXsXEd1zi1LArjuziW_DxsXEEPg-giRVswK0hs9mYpXNlOuCVtRmG0BU2KJbKV2sZ3tnGsHf-tK2JbiQsyDG-c_ktAkfpbHdKiGZQEJAkb0oCkz5ZMkf0wkFQEdnwHKUW1Q957t3vEVrfQlhiBrSJoS9DGZXYf5qhDfgTTJcEdoGCikUqY917luDTk2NUBytk_YWTs?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.18492,47.61339,0
+          </coordinates>
+      </Point>
       </Placemark>
       <Placemark>
         <name>Sacramento REI</name>
@@ -359,6 +389,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR--S_di3QFOG-Vj2mwgR9OEtVtLtS9I1KvuWDoglZkSUsSafs1263BddEN_2pLzk-JYmTzuHZKuJPEDUsjfPwPdESUAjT25nHBTJis1VrhEC-qB1ywyswBjer0gdt9TDdAFoPv-HO1sAmwMrWSLozW1vaCmziQf2g--FcxNmg6tTzU6wLHr4tw80CkB1jFZSs-UaFDqvMRf0hZTf9ZSL4QIm3psKK5L6Xz4JoWU8gUO1sAiE_Tb9HoyrI?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -121.44967,38.59764,0
+          </coordinates>
+      </Point>
       </Placemark>
       <Placemark>
         <name>Saratoga REI</name>
@@ -391,6 +426,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRsnDHlN9Lq3yGhEQH6MbB7NN1qsJyVzhyOjQ4Pf_vxOTDJGApth0rWq5JO4SbWPg6Zra_uYk4nit1mLYu8N4xFjZ0WBZchNkXpUzo3nmErrnhL6CovLHbELjvdhbpdntn4Dg9fSV0YvrzZPUYQ43Ib8fL4f4shlByhZSuLVT3ZlK2o_1u00Lbxhoi3DifsnjrgZFdecq-RyP7afiQ6xe4xXtFM0Wi5fOLZLKHd4Kf8khajfoaP1TYL1pc?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -121.99188,37.28857,0
+          </coordinates>
+      </Point>
       </Placemark>
       <Placemark>
         <name>Spokane REI</name>
@@ -423,6 +463,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSvA6MJkfjm_gnXEvAxywiAg0L1vnllj7hM9J83WdnTCh_O1UvmuOS4d7j9Lh4AQ3RTytBH22MMmHC7tZ3dhqPbz2ge8BTXL1ZLL9_vBYWeJZdisE7o72cj-TlxE6o7HFHHBiq6sdkLB8feTgdloAlLVn9ZkMvdkGoJapb651cwtEgshyoVblHAMv8VTCk5kU4rOiM-EOl_wuxrzRUSiOPGpm8BctTpvWYtHBRpKC5VL7DSiWqmD47Jql8?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -117.42704,47.66778,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Chandler REI</name>
@@ -455,6 +500,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSY5-FKW2bLOdvo0N5Ih8iqHAGMayyup7FXbMSl6bRZdHH1QwZaT9gp2Z0lLgcOdUJSVcW7zs339WIWcJX9P61vT2KOYUu49VUTHstxbGVfkmoqztA4FlTFc9eVs-MufQyubBa5fb23FBGjvJrLxOgQk66ll1qyuLX4PldxsnCoMFaNnJ5gDamD9nO4TbREa2X1kmfGHyjQIl8m6JL2BRQ2FSzuq92HUR9qRVbIUO7-LjAVwaZCLNqYJGU?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.97077,33.31655,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>San Diego REI</name>
@@ -487,6 +537,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRxdFKz0mR2I-qm4RG0AeJHuvAETdcwuNsPwPOYJ2ccvW1ulbHhM8fNs8fJ2XegBJBKUlVtk5mhlUEb1ucHwlVLO8Tvpbaud6OvPDR1UpQX2Zgl_4O1FHzG8SVT-9aLg_YK-5zNkDlSbhjseh4ahEUYHgt0hONImfvGLypAuXuzki3KiBDE0_XU4Woh_WqckSLfnBYFd3wQ7GNC28XTmUM5xWJB451QQPDzNQTO62a3M4Vjaw54EoT7O4Q?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -117.16305,32.83848,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Albuquerque REI</name>
@@ -519,6 +574,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSi5ehfm99RsGIDk9Vl8hIrZyI94UcipLvVAbdP388hwquSHuJXvvu09bp8QKuSMORKHL9qLt10JQODta_Hi7ONXlLRR1kJ-h_Z0sLOoZiqnqOKA93xoTiPz_unpAKbIZVb3apj3ZsKhPChsIMUzMTAiCYF-12PPT8B3ueuDFS7J51_qtggRL51ZfNL0i_ECHkqfICBhuTy_fdlRZ2g-LsOIlHaISGy8MYQ4j3lm6bkfLnccRiHtdhQQxU?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -106.60731,35.13525,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Atlanta REI</name>
@@ -551,6 +611,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRdCMzpDnhIdU54p_5Da7MNfE2kqn0oA22Ej66JXphIRBZ9O_YE-fGkio1kGExT_DnjmBaRsu0xWY1izrf-uBF39ZVcuBSTZupKuts1U1yeKdHzNf5ZD0HZ661E9Lip0P1tCODynFukj7hwYivUHHQN6SMGuk23lwJVyS9FJWCnP-0WhUSC2NA9W0nlVxoDxcmFfo-YmHuKaP-T8a8ew5aZiYDJQigHvawrCjRGnPsA51z0XrZ5lMc2xMs?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+             -84.32143,33.84003,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Baileys Crossroads REI</name>
@@ -583,6 +648,11 @@
             <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGS6pxI6SdWQA1cvLZQCQjPTpCEDjSuIh1wmo9wpzs4KzY1OiKYWsOiBGqUzaOORHowN3NZJUAPJfv3MDH_lrdZSHtnmug3MBaQI9fnhyXoR95eR6TnJBOBpxOWjB4cYIoyV_fjl4XUJkUYOsXPXfbzNlUYMr3J848rVAI3j0I7kpIxmBb5vyGMY1ydHJ9ZzliQdrHDE62fbBcVa1lTJc1FyXWLIVtT9E48h9Og5Th_YLoAkddDb6e2JGpw?authuser=0&fife=s16383]]></value>
           </Data>
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -77.12339,38.84893,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark>
         <name>Tualatin REI</name>

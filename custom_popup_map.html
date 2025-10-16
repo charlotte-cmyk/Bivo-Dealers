@@ -87,7 +87,7 @@
                       const photoUrl =
                         detailedPlace.photos?.[0]?.getUrl({ maxWidth: 200 }) || "";
                       const html = `
-                        <div class="custom-popup-content" style="display:flex;">
+                        <div class="custom-popup-content" style="display:flex; background-color: #75ccf0;">
                           ${photoUrl ? `<img src="${photoUrl}" alt="${detailedPlace.name}">` : ""}
                           <div>
                             <strong style="font-size:14px; color:#263a79;">${detailedPlace.name}</strong><br>
