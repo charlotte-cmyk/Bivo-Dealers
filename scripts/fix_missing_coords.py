@@ -1,12 +1,13 @@
 import xml.etree.ElementTree as ET
 import requests
 import time
+from xml.dom import minidom
 
 # --- CONFIGURATION ---
 INPUT_KML = "all_dealers.kml"
-OUTPUT_KML = "all_dealers_fixed.kml"
-USER_AGENT = "kml-fixer/1.0 (your_email@example.com)"  # Replace with your contact per Nominatim policy
-SLEEP_BETWEEN_REQUESTS = 1  # seconds, required by Nominatim usage policy
+OUTPUT_KML = "all_dealers_fixed3.kml"
+USER_AGENT = "kml-fixer/1.0 (andrew@drinkbivo.com)"
+SLEEP_BETWEEN_REQUESTS = 1
 
 # --- NAMESPACE ---
 ns = {'kml': 'http://www.opengis.net/kml/2.2'}
@@ -51,7 +52,8 @@ def fix_coordinate_order(coord_text):
 
 # --- MAIN PROCESS ---
 def main():
-    print(f"🔍 Loading {INPUT_KML} ...")
+    print(f"Loading {INPUT_KML} ...")
+    ET.register_namespace('', "http://www.opengis.net/kml/2.2")
     tree = ET.parse(INPUT_KML)
     root = tree.getroot()
     total_fixed = 0
@@ -71,21 +73,30 @@ def main():
                 total_fixed += 1
             continue
 
-        # --- Case 2: Missing coordinates: try to build address ---
-        addr_elem = placemark.find("kml:address", ns)
-        address = addr_elem.text.strip() if addr_elem is not None and addr_elem.text else ""
+        # --- Case 2: Missing coordinates: try to build address from ExtendedData ---
+        addr_parts = {}
+        for key in ["Address", "City", "State", "Country", "Zip", "Zip Code"]:
+            val_elem = placemark.find(f".//kml:Data[@name='{key}']/kml:value", ns)
+            if val_elem is not None and val_elem.text and val_elem.text.strip():
+                addr_parts[key] = val_elem.text.strip()
 
-        if not address:
-            addr_parts = []
-            for key in ["Address", "Address 2", "City", "State", "Country", "Zip", "Zip Code"]:
-                val_elem = placemark.find(f".//kml:Data[@name='{key}']/kml:value", ns)
-                if val_elem is not None and val_elem.text and val_elem.text.strip():
-                    addr_parts.append(val_elem.text.strip())
-            address = ", ".join(addr_parts)
+        # --- Build a complete address string safely ---
+        zip_code = addr_parts.get("Zip") or addr_parts.get("Zip Code", "")
+        address_parts = [
+            addr_parts.get("Address", ""),
+            addr_parts.get("City", ""),
+            addr_parts.get("State", ""),
+            zip_code,
+            addr_parts.get("Country", "")
+        ]
+        # Filter out empty strings, join nicely
+        address = " ".join([part for part in address_parts if part])
 
-        if not address:
-            print(f"⚠️ Skipping '{name}' — no address to geocode.")
+        if not address.strip():
+            print(f"Skipping '{name}' — no usable address to geocode.")
             continue
+
+
 
         # --- Geocode missing coordinate ---
         lon, lat = nominatim_geocode(address)
@@ -97,15 +108,18 @@ def main():
             if coord_elem is None:
                 coord_elem = ET.SubElement(point_elem, "{http://www.opengis.net/kml/2.2}coordinates")
             coord_elem.text = f"{lon},{lat},0"
-            print(f"✅ Added coordinates for '{name}' ({address})")
+            print(f"Added coordinates for '{name}' ({address})")
             total_geocoded += 1
             time.sleep(SLEEP_BETWEEN_REQUESTS)
         else:
-            print(f"⚠️ Could not geocode '{name}' ({address})")
+            print(f"Could not geocode '{name}' ({address})")
 
     ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-    tree.write(OUTPUT_KML, encoding="utf-8", xml_declaration=True)
-    print("\n🎉 Done!")
+    rough_string = ET.tostring(root, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    with open(OUTPUT_KML, "w", encoding="utf-8") as f:
+        f.write(reparsed.toprettyxml(indent="  "))
+    print("Done!")
     print(f"  ↳ {total_fixed} coordinates fixed")
     print(f"  ↳ {total_geocoded} placemarks geocoded")
     print(f"  ↳ Output file: {OUTPUT_KML}")

@@ -32,4 +32,4 @@ if __name__ == "__main__":
         for name in missing_points:
             print(" -", name)
     else:
-        print("✅ All placemarks have <Point>/<coordinates> data.")
+        print("All placemarks have <Point>/<coordinates> data.")
