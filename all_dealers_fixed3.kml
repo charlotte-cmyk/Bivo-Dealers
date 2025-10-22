@@ -2090,6 +2090,9 @@
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>-75.28758,40.09576,0</coordinates>
+        </Point>
         
       
       </Placemark>
@@ -2384,7 +2387,11 @@
           
         
         </ExtendedData>
-        
+        <Point>
+          <coordinates>
+            -111.98918,33.6021,0
+          </coordinates>
+        </Point>
       
       </Placemark>
       
@@ -3569,6 +3576,11 @@
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.40512,40.08273,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -4342,8 +4354,6 @@
           <coordinates>
             -73.9952085,40.724848,0
           </coordinates>
-          
-        
         </Point>
         
       
@@ -5767,7 +5777,11 @@ Richmond, VT 05477</value>
         
         </ExtendedData>
         
-      
+        <Point>
+          <coordinates>
+            -79.43397,44.07611,0
+          </coordinates>
+        </Point>
       </Placemark>
       
       
@@ -8103,6 +8117,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            100.71245,13.79831,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -8334,6 +8353,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.52861,45.46888,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -8799,6 +8823,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -123.55797,48.65147,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -9732,6 +9761,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -107.07647,37.25542,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -10197,6 +10231,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -105.22798,40.01383,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -10663,6 +10702,11 @@ Richmond, VT 05477</value>
         
         </ExtendedData>
         
+        <Point>
+          <coordinates>
+            -79.41236,43.80467,0
+          </coordinates>
+        </Point>
       
       </Placemark>
       
@@ -10776,6 +10820,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -81.71837,30.08474,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -11124,6 +11173,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -78.91139,43.88753,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -12876,6 +12930,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -114.0861,51.0535,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -13107,6 +13166,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -106.67222,52.12887,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -13815,6 +13879,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.84191,36.15208,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -14982,6 +15051,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.16775,38.68472,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -15799,6 +15873,11 @@ Richmond, VT 05477</value>
         
         </ExtendedData>
         
+        <Point>
+          <coordinates>
+            -89.65113,44.92062,0
+          </coordinates>
+        </Point>
       
       </Placemark>
       
@@ -15912,6 +15991,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -80.69988,43.20306,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -16386,6 +16470,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.39885,32.71038,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -16634,7 +16723,7 @@ Richmond, VT 05477</value>
         <address>VASHON BIKES LLC			 9926 sw bank road #2025 Vashon Washington United States</address>
         
         
-        <description>Address: 9926 sw bank road #2025&lt;br&gt;Address 2: &lt;br&gt;City: Vashon&lt;br&gt;State: Washington&lt;br&gt;Country: United States&lt;br&gt;Zip Code: 98070&lt;br&gt;Website: www.vashonbikes.com&lt;br&gt;unnamed (1): &lt;br&gt;Name: &lt;br&gt;Adress 2: </description>
+        <description>Address: 9926 sw bank road &lt;br&gt;Address 2: &lt;br&gt;City: Vashon&lt;br&gt;State: Washington&lt;br&gt;Country: United States&lt;br&gt;Zip Code: 98070&lt;br&gt;Website: www.vashonbikes.com&lt;br&gt;unnamed (1): &lt;br&gt;Name: &lt;br&gt;Adress 2: </description>
         
         
         <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
@@ -16646,7 +16735,7 @@ Richmond, VT 05477</value>
           <Data name="Address">
             
             
-            <value>9926 sw bank road #2025</value>
+            <value>9926 sw bank road</value>
             
           
           </Data>
@@ -16734,6 +16823,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.46154,47.44757,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -17082,6 +17176,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -95.46934,30.31586,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -18015,6 +18114,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            55.23639,25.16489,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -18714,6 +18818,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.53879,46.01327,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -18945,6 +19054,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.86969,41.82287,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -20112,6 +20226,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.50089,37.76265,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -21054,6 +21173,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.51887,43.62315,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -21987,6 +22111,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.76482,40.65739,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -22452,6 +22581,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            121.51331,25.05494,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -22566,6 +22700,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.43632,39.23722,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -23148,6 +23287,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            136.89839,35.15813,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -23730,6 +23874,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.74838,45.39476,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -24312,6 +24461,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -106.58987,39.64182,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -24552,6 +24706,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.86973,40.52661,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -25953,6 +26112,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -106.82737,39.65584,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -27246,6 +27410,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -121.92111,36.55475,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -27603,6 +27772,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -91.47055,46.02122,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -28770,6 +28944,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -119.77827,36.87342,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -29829,6 +30008,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -76.69945,39.00892,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -31590,6 +31774,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.10399,42.31464,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -34071,6 +34260,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -114.08039,51.04398,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -34194,6 +34388,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -113.52645,53.54678,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -34821,6 +35020,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -122.67159,49.11396,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -35574,6 +35778,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.6518,45.53222,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -35949,6 +36158,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -75.75493,45.39128,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -37584,6 +37798,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -93.48932,44.86319,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -37959,6 +38178,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -93.2883,44.95177,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -38712,6 +38936,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -92.48094,44.00043,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -38961,6 +39190,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.9263,33.61581,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -39084,6 +39318,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -87.72371,42.02603,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -40512,6 +40751,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.21941,44.47482,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -40626,6 +40870,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -114.43614,49.60774,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -41091,6 +41340,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            55.66852,24.20203,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -41322,6 +41576,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -107.59938,38.86719,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -41436,6 +41695,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -105.19057,39.73669,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -42369,6 +42633,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -116.37642,33.7209,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -44283,6 +44552,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -121.41446,47.42498,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -44631,6 +44905,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -71.27375,46.86588,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -45098,6 +45377,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.93844,39.72968,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -48956,6 +49240,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -65.94613,45.41634,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -50123,6 +50412,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -73.4974,45.53531,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -50237,6 +50531,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -79.89978,44.72167,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>
@@ -51872,6 +52171,11 @@ Richmond, VT 05477</value>
           
         
         </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.02059,44.4339,0
+          </coordinates>
+        </Point>
         
       
       </Placemark>

@@ -24,7 +24,7 @@ def find_placemarks_without_points(kml_path):
 
 
 if __name__ == "__main__":
-    kml_file = r'all_dealers_fixed.kml'   # path to your KML file
+    kml_file = r'all_dealers_fixed3.kml'   # path to your KML file
     missing_points = find_placemarks_without_points(kml_file)
 
     if missing_points:
