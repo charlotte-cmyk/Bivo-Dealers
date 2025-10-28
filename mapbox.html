@@ -52,14 +52,20 @@
   <body>
     <div id="map"></div>
     <script>
+
+      // **GLOBAL VARS TO ADJUST DISPLAY ON INIT RENDER**  
+      const MAP_CENTER_DISPLAY_COORD = [-106.5348, 38.7946]; // center of america, approx Lebanon, KS for those who are wondering
+      const MAP_ZOOM_LEVEL = 2.4; // looks ok
+      //******
+
       // The value for 'accessToken' begins with 'pk...'
       mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV3c3ViaWUiLCJhIjoiY21oM3ZxNHlyMGNqbTJwcTBrNmxneDd1diJ9._7vjHoFAmx1Ds2zOhXktMQ';
       const map = new mapboxgl.Map({
         container: 'map',
         // Replace YOUR_STYLE_URL with your style URL.
         style: 'mapbox://styles/andrewsubie/cmh9fhjp3001k01qr57ai1k7r',
-        center: [-87.661557, 41.893748],
-        zoom: 10.7
+        center: MAP_CENTER_DISPLAY_COORD,
+        zoom: MAP_ZOOM_LEVEL
       });
       // Code from the next step will go here.
       /*
