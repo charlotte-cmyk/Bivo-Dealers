@@ -1,0 +1,9040 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  
+  
+  
+  
+  <Document>
+    
+    
+    
+    
+    <name>Bivo Dealers</name>
+    
+    
+    
+    
+    <description/>
+    
+    
+    
+    
+    <Style id="icon-1522-1A237E-normal">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff7e231a</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <LabelStyle>
+        
+        
+        
+        
+        <scale>0</scale>
+        
+        
+      
+      
+      </LabelStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <Style id="icon-1522-1A237E-highlight">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff7e231a</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <LabelStyle>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+      
+      
+      </LabelStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <StyleMap id="icon-1522-1A237E">
+      
+      
+      
+      
+      <Pair>
+        
+        
+        
+        
+        <key>normal</key>
+        
+        
+        
+        
+        <styleUrl>#icon-1522-1A237E-normal</styleUrl>
+        
+        
+      
+      
+      </Pair>
+      
+      
+      
+      
+      <Pair>
+        
+        
+        
+        
+        <key>highlight</key>
+        
+        
+        
+        
+        <styleUrl>#icon-1522-1A237E-highlight</styleUrl>
+        
+        
+      
+      
+      </Pair>
+      
+      
+    
+    
+    </StyleMap>
+    
+    
+    
+    
+    <Style id="icon-1899-DB4436-labelson">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff3644db</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+        
+        
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <Style id="icon-1899-DB4436-labelson-nodesc">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff3644db</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+        
+        
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <BalloonStyle>
+        
+        
+        
+        
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        
+        
+      
+      
+      </BalloonStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    <Placemark>
+        
+        
+        
+        
+        <name>Seattle REI</name>
+        
+        
+        
+        
+        <address>Seattle REI 222 YALE AVE N Seattle Washington 98109-5429</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQRUbu5NpItw-GXUV6yse2hd7YinJot0BMg6aBw0wrIKamJpN5WD2TNbwXACr9LWWXyw1y4z8KacqtDg1fxb1j3MLPWyxvYBc5iD81HOA2Asypj9jZGoAfsVoJ97hsgoM4Fmr0pC_q3UT26euqsQtWuLWMxQMyQq87Cbm5D7O_St5nh1wd8Znb6pUG2E3Dkwn5wD0LcAbq3U9a8fqMRKEjN5_gZ-ZMxMYzANdqFwamTAUGp_YpVXqI6_xA?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 11&lt;br&gt;Address: 222 YALE AVE N&lt;br&gt;unnamed (1): &lt;br&gt;City: Seattle&lt;br&gt;State: Washington&lt;br&gt;Zip: 98109-5429&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>11.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>222 YALE AVE N</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Seattle</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Washington</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>98109-5429</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQRUbu5NpItw-GXUV6yse2hd7YinJot0BMg6aBw0wrIKamJpN5WD2TNbwXACr9LWWXyw1y4z8KacqtDg1fxb1j3MLPWyxvYBc5iD81HOA2Asypj9jZGoAfsVoJ97hsgoM4Fmr0pC_q3UT26euqsQtWuLWMxQMyQq87Cbm5D7O_St5nh1wd8Znb6pUG2E3Dkwn5wD0LcAbq3U9a8fqMRKEjN5_gZ-ZMxMYzANdqFwamTAUGp_YpVXqI6_xA?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -122.32958,47.62031,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Berkeley REI</name>
+        
+        
+        
+        
+        <address>Berkeley REI 1338 SAN PABLO AVE Berkeley California 94702-1094</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTafMGsmUZOEUFEvhNQ_UP-sSJGRBMeranuy5Ou7xHYTe_GTsZTblnhPF3TrUTE43pAyZEimseGGi4AeV3BtFwxlJcgs7qfJXyHBflGlAHJFNe4-xY-TKBk5_aALdZepGsTx3eDaXx5kCvoWJorwaC9X5O12a419EWdazMQ4hmIKVNXI-UssXpnR--JuvJShNrXBPH7xO-x28hQUE7HBKH1oHEGEFKtjcEsg7r3PQlezrCxOPW_JsbBcjk?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 12&lt;br&gt;Address: 1338 SAN PABLO AVE&lt;br&gt;unnamed (1): &lt;br&gt;City: Berkeley&lt;br&gt;State: California&lt;br&gt;Zip: 94702-1094&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>12.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1338 SAN PABLO AVE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Berkeley</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>94702-1094</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTafMGsmUZOEUFEvhNQ_UP-sSJGRBMeranuy5Ou7xHYTe_GTsZTblnhPF3TrUTE43pAyZEimseGGi4AeV3BtFwxlJcgs7qfJXyHBflGlAHJFNe4-xY-TKBk5_aALdZepGsTx3eDaXx5kCvoWJorwaC9X5O12a419EWdazMQ4hmIKVNXI-UssXpnR--JuvJShNrXBPH7xO-x28hQUE7HBKH1oHEGEFKtjcEsg7r3PQlezrCxOPW_JsbBcjk?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+        
+          
+          <coordinates>
+          -122.29613,37.87911,0
+        </coordinates>
+          
+          
+      
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Bloomington REI</name>
+        
+        
+        
+        
+        <address>Bloomington REI 750 W AMERICAN BLVD Bloomington Minnesota 55420</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTMWHUl2-4obyDSPqfwmjzP6gTjzzRaETExRyK8J8mRXcRIrLOGNX04eSYG9EwUz6HManTReFUbEK0oDOO1XOtho7y46CTSg2i4mHJz16vscVOCMbrR0Qp_4AEe1sL-wcSAVQNhbkZRl-VZe_oqmGlCJSQr9BEVy5osD48-8w-mNY0yeWiJmiAvasIcozmeW8i5GEs6_3KO8pBg7zMhM2Y6gcDemV2qtucoqSOY6zNIzS7ZSU-m3PbQ8iQ?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 15&lt;br&gt;Address: 750 W AMERICAN BLVD&lt;br&gt;unnamed (1): &lt;br&gt;City: Bloomington&lt;br&gt;State: Minnesota&lt;br&gt;Zip: 55420&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>15.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>750 W AMERICAN BLVD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Bloomington</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Minnesota</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>55420</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTMWHUl2-4obyDSPqfwmjzP6gTjzzRaETExRyK8J8mRXcRIrLOGNX04eSYG9EwUz6HManTReFUbEK0oDOO1XOtho7y46CTSg2i4mHJz16vscVOCMbrR0Qp_4AEe1sL-wcSAVQNhbkZRl-VZe_oqmGlCJSQr9BEVy5osD48-8w-mNY0yeWiJmiAvasIcozmeW8i5GEs6_3KO8pBg7zMhM2Y6gcDemV2qtucoqSOY6zNIzS7ZSU-m3PbQ8iQ?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+        
+          
+          <coordinates>
+          -93.29128,44.86066,0
+        </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Anchorage REI</name>
+        
+        
+        
+        
+        <address>Anchorage REI 500 E NORTHERN LIGHTS BLVD Anchorage Alaska 99503</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTDLKvwG180paTSVPdwL97EkbcjqC9W241P0eYdgD8hed-Y98D6SXnPW17G-mCdMnDns3ulf7J5-9VGY2aA4Upg8YW-PuhDuVypCbhD-tC5SboCwM7-xyMJZ5xXsWSgPRkRcByIKKpRnKpxpZ9peQv3QtIW4I8b49dFkLU8YK4mAi3wEv64bwRfHbY2Sd3CUtkS1BGvJrfarjDMj-97T8AJ9E5h0Zk6_RAfardxasCgMkvIbSMiuC7Z92g?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 16&lt;br&gt;Address: 500 E NORTHERN LIGHTS BLVD&lt;br&gt;unnamed (1): &lt;br&gt;City: Anchorage&lt;br&gt;State: Alaska&lt;br&gt;Zip: 99503&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>16.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>500 E NORTHERN LIGHTS BLVD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Anchorage</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Alaska</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>99503</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTDLKvwG180paTSVPdwL97EkbcjqC9W241P0eYdgD8hed-Y98D6SXnPW17G-mCdMnDns3ulf7J5-9VGY2aA4Upg8YW-PuhDuVypCbhD-tC5SboCwM7-xyMJZ5xXsWSgPRkRcByIKKpRnKpxpZ9peQv3QtIW4I8b49dFkLU8YK4mAi3wEv64bwRfHbY2Sd3CUtkS1BGvJrfarjDMj-97T8AJ9E5h0Zk6_RAfardxasCgMkvIbSMiuC7Z92g?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -149.8753,61.19428,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Tustin REI</name>
+        
+        
+        
+        
+        <address>Tustin REI 2962 EL CAMINO REAL Tustin California 92782</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTHRtaCBu7On2f5Ce_FxqkkR5_dpSEEKwZfucLdWS-71ucG1VBqaC9_b-bOtP2UwiT2daTxtZgxuGJedLFKjfITqsV1w9eqQMX6sApFtB00USM7Bu4V47wvQeHwhhnS8xg349v6ahfdaOTOmX6AN7hVhMkFmHj_QDprTYb1osmeodAvLxF8FtAnDYQT3JD65hbbE9sGOeFMXU89xYlRFPCm-5agQS-uisprQmPUBJQ9WcPFtMUCjqDZraQ?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 17&lt;br&gt;Address: 2962 EL CAMINO REAL&lt;br&gt;unnamed (1): &lt;br&gt;City: Tustin&lt;br&gt;State: California&lt;br&gt;Zip: 92782&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>17.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>2962 EL CAMINO REAL</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Tustin</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>92782</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTHRtaCBu7On2f5Ce_FxqkkR5_dpSEEKwZfucLdWS-71ucG1VBqaC9_b-bOtP2UwiT2daTxtZgxuGJedLFKjfITqsV1w9eqQMX6sApFtB00USM7Bu4V47wvQeHwhhnS8xg349v6ahfdaOTOmX6AN7hVhMkFmHj_QDprTYb1osmeodAvLxF8FtAnDYQT3JD65hbbE9sGOeFMXU89xYlRFPCm-5agQS-uisprQmPUBJQ9WcPFtMUCjqDZraQ?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -117.79572,33.72143,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Denver REI</name>
+        
+        
+        
+        
+        <address>Denver REI 1416 PLATTE ST Denver Colorado 80202</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQgpeSiwBEW5AzmGH_owVWE6-o4aFgyB4TifVBM-yqY-ik2ffZLoGUWAvc76nVd-MfRmYdIgXY_fiOOkVbdSLnJwwFRLmop2PvlKnsEAp2Hsw2uRPZBXYIMPqXus5aWemNwaA5gpElKc5Z5i7GsKTTVtAriHMhFuRkZvYLFWehGBbE1GJh6et3p9UVck-6HMcKS3qFy0ij6WwBCncOWcB_RTL1FC54WP3Rh7k6NuoOYfVsegzVoYt9mjuk?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 18&lt;br&gt;Address: 1416 PLATTE ST&lt;br&gt;unnamed (1): &lt;br&gt;City: Denver&lt;br&gt;State: Colorado&lt;br&gt;Zip: 80202&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>18.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1416 PLATTE ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Denver</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Colorado</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>80202</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQgpeSiwBEW5AzmGH_owVWE6-o4aFgyB4TifVBM-yqY-ik2ffZLoGUWAvc76nVd-MfRmYdIgXY_fiOOkVbdSLnJwwFRLmop2PvlKnsEAp2Hsw2uRPZBXYIMPqXus5aWemNwaA5gpElKc5Z5i7GsKTTVtAriHMhFuRkZvYLFWehGBbE1GJh6et3p9UVck-6HMcKS3qFy0ij6WwBCncOWcB_RTL1FC54WP3Rh7k6NuoOYfVsegzVoYt9mjuk?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+             -105.00985,39.75562,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Salt Lake City REI</name>
+        
+        
+        
+        
+        <address>Salt Lake City REI 3285 E 3300 S Salt Lake City Utah 84109</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTfgwXMaoE_jLaVPrAhmO-tgY5V2Dq20gpxWu316OcnB0x7lu7vxiYvSkqjTc1gRMUplei_DLw2ZKlGYmKBdk8WS3Eg-lgkXRLeHX-VaNP7cD9_79t94NYVYu9UU_STag6Cv9Qepz-oQpDl3tzqpS6OTwDJvFnkvWo3mELvfwhPYdkoVE7C86kbaveA-hUyZuR0FfRUeQNUv6_JasuooIU48Mp9qEFXXw4a_BpnGLfgmG6vG3y3OccGAP4?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 19&lt;br&gt;Address: 3285 E 3300 S&lt;br&gt;unnamed (1): &lt;br&gt;City: Salt Lake City&lt;br&gt;State: Utah&lt;br&gt;Zip: 84109&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>19.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>3285 E 3300 S</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Salt Lake City</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Utah</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>84109</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTfgwXMaoE_jLaVPrAhmO-tgY5V2Dq20gpxWu316OcnB0x7lu7vxiYvSkqjTc1gRMUplei_DLw2ZKlGYmKBdk8WS3Eg-lgkXRLeHX-VaNP7cD9_79t94NYVYu9UU_STag6Cv9Qepz-oQpDl3tzqpS6OTwDJvFnkvWo3mELvfwhPYdkoVE7C86kbaveA-hUyZuR0FfRUeQNUv6_JasuooIU48Mp9qEFXXw4a_BpnGLfgmG6vG3y3OccGAP4?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -111.80122,40.70093,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Bellevue REI</name>
+        
+        
+        
+        
+        <address>Bellevue REI 410 116TH AVE NE Bellevue Washington 98004</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQSWN59HQAIy-KQvBAY_iWP2XX7ha5PmDYPumWQXDv0yiwMzmzI1BXsXEd1zi1LArjuziW_DxsXEEPg-giRVswK0hs9mYpXNlOuCVtRmG0BU2KJbKV2sZ3tnGsHf-tK2JbiQsyDG-c_ktAkfpbHdKiGZQEJAkb0oCkz5ZMkf0wkFQEdnwHKUW1Q957t3vEVrfQlhiBrSJoS9DGZXYf5qhDfgTTJcEdoGCikUqY917luDTk2NUBytk_YWTs?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 20&lt;br&gt;Address: 410 116TH AVE NE&lt;br&gt;unnamed (1): &lt;br&gt;City: Bellevue&lt;br&gt;State: Washington&lt;br&gt;Zip: 98004&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>20.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>410 116TH AVE NE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Bellevue</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Washington</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>98004</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQSWN59HQAIy-KQvBAY_iWP2XX7ha5PmDYPumWQXDv0yiwMzmzI1BXsXEd1zi1LArjuziW_DxsXEEPg-giRVswK0hs9mYpXNlOuCVtRmG0BU2KJbKV2sZ3tnGsHf-tK2JbiQsyDG-c_ktAkfpbHdKiGZQEJAkb0oCkz5ZMkf0wkFQEdnwHKUW1Q957t3vEVrfQlhiBrSJoS9DGZXYf5qhDfgTTJcEdoGCikUqY917luDTk2NUBytk_YWTs?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -122.18492,47.61339,0
+          </coordinates>
+          
+          
+      
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Sacramento REI</name>
+        
+        
+        
+        
+        <address>Sacramento REI 1790 EXPO PKWY Sacramento California 95815</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR--S_di3QFOG-Vj2mwgR9OEtVtLtS9I1KvuWDoglZkSUsSafs1263BddEN_2pLzk-JYmTzuHZKuJPEDUsjfPwPdESUAjT25nHBTJis1VrhEC-qB1ywyswBjer0gdt9TDdAFoPv-HO1sAmwMrWSLozW1vaCmziQf2g--FcxNmg6tTzU6wLHr4tw80CkB1jFZSs-UaFDqvMRf0hZTf9ZSL4QIm3psKK5L6Xz4JoWU8gUO1sAiE_Tb9HoyrI?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 21&lt;br&gt;Address: 1790 EXPO PKWY&lt;br&gt;unnamed (1): &lt;br&gt;City: Sacramento&lt;br&gt;State: California&lt;br&gt;Zip: 95815&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>21.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1790 EXPO PKWY</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Sacramento</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>95815</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR--S_di3QFOG-Vj2mwgR9OEtVtLtS9I1KvuWDoglZkSUsSafs1263BddEN_2pLzk-JYmTzuHZKuJPEDUsjfPwPdESUAjT25nHBTJis1VrhEC-qB1ywyswBjer0gdt9TDdAFoPv-HO1sAmwMrWSLozW1vaCmziQf2g--FcxNmg6tTzU6wLHr4tw80CkB1jFZSs-UaFDqvMRf0hZTf9ZSL4QIm3psKK5L6Xz4JoWU8gUO1sAiE_Tb9HoyrI?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -121.44967,38.59764,0
+          </coordinates>
+          
+          
+      
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Saratoga REI</name>
+        
+        
+        
+        
+        <address>Saratoga REI 400 EL PASEO DE SARATOGA San Jose California 95130</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRsnDHlN9Lq3yGhEQH6MbB7NN1qsJyVzhyOjQ4Pf_vxOTDJGApth0rWq5JO4SbWPg6Zra_uYk4nit1mLYu8N4xFjZ0WBZchNkXpUzo3nmErrnhL6CovLHbELjvdhbpdntn4Dg9fSV0YvrzZPUYQ43Ib8fL4f4shlByhZSuLVT3ZlK2o_1u00Lbxhoi3DifsnjrgZFdecq-RyP7afiQ6xe4xXtFM0Wi5fOLZLKHd4Kf8khajfoaP1TYL1pc?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 22&lt;br&gt;Address: 400 EL PASEO DE SARATOGA&lt;br&gt;unnamed (1): &lt;br&gt;City: San Jose&lt;br&gt;State: California&lt;br&gt;Zip: 95130&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>22.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>400 EL PASEO DE SARATOGA</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>San Jose</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>95130</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRsnDHlN9Lq3yGhEQH6MbB7NN1qsJyVzhyOjQ4Pf_vxOTDJGApth0rWq5JO4SbWPg6Zra_uYk4nit1mLYu8N4xFjZ0WBZchNkXpUzo3nmErrnhL6CovLHbELjvdhbpdntn4Dg9fSV0YvrzZPUYQ43Ib8fL4f4shlByhZSuLVT3ZlK2o_1u00Lbxhoi3DifsnjrgZFdecq-RyP7afiQ6xe4xXtFM0Wi5fOLZLKHd4Kf8khajfoaP1TYL1pc?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -121.99188,37.28857,0
+          </coordinates>
+          
+          
+      
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Spokane REI</name>
+        
+        
+        
+        
+        <address>Spokane REI 1125 N MONROE ST Spokane Washington 99201</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSvA6MJkfjm_gnXEvAxywiAg0L1vnllj7hM9J83WdnTCh_O1UvmuOS4d7j9Lh4AQ3RTytBH22MMmHC7tZ3dhqPbz2ge8BTXL1ZLL9_vBYWeJZdisE7o72cj-TlxE6o7HFHHBiq6sdkLB8feTgdloAlLVn9ZkMvdkGoJapb651cwtEgshyoVblHAMv8VTCk5kU4rOiM-EOl_wuxrzRUSiOPGpm8BctTpvWYtHBRpKC5VL7DSiWqmD47Jql8?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 24&lt;br&gt;Address: 1125 N MONROE ST&lt;br&gt;unnamed (1): &lt;br&gt;City: Spokane&lt;br&gt;State: Washington&lt;br&gt;Zip: 99201&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>24.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1125 N MONROE ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Spokane</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Washington</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>99201</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSvA6MJkfjm_gnXEvAxywiAg0L1vnllj7hM9J83WdnTCh_O1UvmuOS4d7j9Lh4AQ3RTytBH22MMmHC7tZ3dhqPbz2ge8BTXL1ZLL9_vBYWeJZdisE7o72cj-TlxE6o7HFHHBiq6sdkLB8feTgdloAlLVn9ZkMvdkGoJapb651cwtEgshyoVblHAMv8VTCk5kU4rOiM-EOl_wuxrzRUSiOPGpm8BctTpvWYtHBRpKC5VL7DSiWqmD47Jql8?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -117.42704,47.66778,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Chandler REI</name>
+        
+        
+        
+        
+        <address>Chandler REI 870 N 54TH ST Chandler Arizona 85226</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSY5-FKW2bLOdvo0N5Ih8iqHAGMayyup7FXbMSl6bRZdHH1QwZaT9gp2Z0lLgcOdUJSVcW7zs339WIWcJX9P61vT2KOYUu49VUTHstxbGVfkmoqztA4FlTFc9eVs-MufQyubBa5fb23FBGjvJrLxOgQk66ll1qyuLX4PldxsnCoMFaNnJ5gDamD9nO4TbREa2X1kmfGHyjQIl8m6JL2BRQ2FSzuq92HUR9qRVbIUO7-LjAVwaZCLNqYJGU?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 25&lt;br&gt;Address: 870 N 54TH ST&lt;br&gt;unnamed (1): &lt;br&gt;City: Chandler&lt;br&gt;State: Arizona&lt;br&gt;Zip: 85226&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>25.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>870 N 54TH ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Chandler</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Arizona</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>85226</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSY5-FKW2bLOdvo0N5Ih8iqHAGMayyup7FXbMSl6bRZdHH1QwZaT9gp2Z0lLgcOdUJSVcW7zs339WIWcJX9P61vT2KOYUu49VUTHstxbGVfkmoqztA4FlTFc9eVs-MufQyubBa5fb23FBGjvJrLxOgQk66ll1qyuLX4PldxsnCoMFaNnJ5gDamD9nO4TbREa2X1kmfGHyjQIl8m6JL2BRQ2FSzuq92HUR9qRVbIUO7-LjAVwaZCLNqYJGU?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -111.97077,33.31655,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>San Diego REI</name>
+        
+        
+        
+        
+        <address>San Diego REI 5556 COPLEY DR San Diego California 92111</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRxdFKz0mR2I-qm4RG0AeJHuvAETdcwuNsPwPOYJ2ccvW1ulbHhM8fNs8fJ2XegBJBKUlVtk5mhlUEb1ucHwlVLO8Tvpbaud6OvPDR1UpQX2Zgl_4O1FHzG8SVT-9aLg_YK-5zNkDlSbhjseh4ahEUYHgt0hONImfvGLypAuXuzki3KiBDE0_XU4Woh_WqckSLfnBYFd3wQ7GNC28XTmUM5xWJB451QQPDzNQTO62a3M4Vjaw54EoT7O4Q?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 29&lt;br&gt;Address: 5556 COPLEY DR&lt;br&gt;unnamed (1): &lt;br&gt;City: San Diego&lt;br&gt;State: California&lt;br&gt;Zip: 92111&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>29.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>5556 COPLEY DR</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>San Diego</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>92111</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRxdFKz0mR2I-qm4RG0AeJHuvAETdcwuNsPwPOYJ2ccvW1ulbHhM8fNs8fJ2XegBJBKUlVtk5mhlUEb1ucHwlVLO8Tvpbaud6OvPDR1UpQX2Zgl_4O1FHzG8SVT-9aLg_YK-5zNkDlSbhjseh4ahEUYHgt0hONImfvGLypAuXuzki3KiBDE0_XU4Woh_WqckSLfnBYFd3wQ7GNC28XTmUM5xWJB451QQPDzNQTO62a3M4Vjaw54EoT7O4Q?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -117.16305,32.83848,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Albuquerque REI</name>
+        
+        
+        
+        
+        <address>Albuquerque REI 1550 MERCANTILE AVE NE Albuquerque New Mexico 87107</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSi5ehfm99RsGIDk9Vl8hIrZyI94UcipLvVAbdP388hwquSHuJXvvu09bp8QKuSMORKHL9qLt10JQODta_Hi7ONXlLRR1kJ-h_Z0sLOoZiqnqOKA93xoTiPz_unpAKbIZVb3apj3ZsKhPChsIMUzMTAiCYF-12PPT8B3ueuDFS7J51_qtggRL51ZfNL0i_ECHkqfICBhuTy_fdlRZ2g-LsOIlHaISGy8MYQ4j3lm6bkfLnccRiHtdhQQxU?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 30&lt;br&gt;Address: 1550 MERCANTILE AVE NE&lt;br&gt;unnamed (1): &lt;br&gt;City: Albuquerque&lt;br&gt;State: New Mexico&lt;br&gt;Zip: 87107&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>30.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1550 MERCANTILE AVE NE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Albuquerque</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>New Mexico</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>87107</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSi5ehfm99RsGIDk9Vl8hIrZyI94UcipLvVAbdP388hwquSHuJXvvu09bp8QKuSMORKHL9qLt10JQODta_Hi7ONXlLRR1kJ-h_Z0sLOoZiqnqOKA93xoTiPz_unpAKbIZVb3apj3ZsKhPChsIMUzMTAiCYF-12PPT8B3ueuDFS7J51_qtggRL51ZfNL0i_ECHkqfICBhuTy_fdlRZ2g-LsOIlHaISGy8MYQ4j3lm6bkfLnccRiHtdhQQxU?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -106.60731,35.13525,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Atlanta REI</name>
+        
+        
+        
+        
+        <address>Atlanta REI 1800 NORTHEAST EXPY NE Atlanta Georgia 30329</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRdCMzpDnhIdU54p_5Da7MNfE2kqn0oA22Ej66JXphIRBZ9O_YE-fGkio1kGExT_DnjmBaRsu0xWY1izrf-uBF39ZVcuBSTZupKuts1U1yeKdHzNf5ZD0HZ661E9Lip0P1tCODynFukj7hwYivUHHQN6SMGuk23lwJVyS9FJWCnP-0WhUSC2NA9W0nlVxoDxcmFfo-YmHuKaP-T8a8ew5aZiYDJQigHvawrCjRGnPsA51z0XrZ5lMc2xMs?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 33&lt;br&gt;Address: 1800 NORTHEAST EXPY NE&lt;br&gt;unnamed (1): &lt;br&gt;City: Atlanta&lt;br&gt;State: Georgia&lt;br&gt;Zip: 30329&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>33.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1800 NORTHEAST EXPY NE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Atlanta</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Georgia</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>30329</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRdCMzpDnhIdU54p_5Da7MNfE2kqn0oA22Ej66JXphIRBZ9O_YE-fGkio1kGExT_DnjmBaRsu0xWY1izrf-uBF39ZVcuBSTZupKuts1U1yeKdHzNf5ZD0HZ661E9Lip0P1tCODynFukj7hwYivUHHQN6SMGuk23lwJVyS9FJWCnP-0WhUSC2NA9W0nlVxoDxcmFfo-YmHuKaP-T8a8ew5aZiYDJQigHvawrCjRGnPsA51z0XrZ5lMc2xMs?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+             -84.32143,33.84003,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Baileys Crossroads REI</name>
+        
+        
+        
+        
+        <address>Baileys Crossroads REI 3509 CARLIN SPRINGS RD Bailey's Crossroads Virginia 22041</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGS6pxI6SdWQA1cvLZQCQjPTpCEDjSuIh1wmo9wpzs4KzY1OiKYWsOiBGqUzaOORHowN3NZJUAPJfv3MDH_lrdZSHtnmug3MBaQI9fnhyXoR95eR6TnJBOBpxOWjB4cYIoyV_fjl4XUJkUYOsXPXfbzNlUYMr3J848rVAI3j0I7kpIxmBb5vyGMY1ydHJ9ZzliQdrHDE62fbBcVa1lTJc1FyXWLIVtT9E48h9Og5Th_YLoAkddDb6e2JGpw?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 34&lt;br&gt;Address: 3509 CARLIN SPRINGS RD&lt;br&gt;unnamed (1): &lt;br&gt;City: Bailey's Crossroads&lt;br&gt;State: Virginia&lt;br&gt;Zip: 22041&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>34.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>3509 CARLIN SPRINGS RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Bailey's Crossroads</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Virginia</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>22041</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGS6pxI6SdWQA1cvLZQCQjPTpCEDjSuIh1wmo9wpzs4KzY1OiKYWsOiBGqUzaOORHowN3NZJUAPJfv3MDH_lrdZSHtnmug3MBaQI9fnhyXoR95eR6TnJBOBpxOWjB4cYIoyV_fjl4XUJkUYOsXPXfbzNlUYMr3J848rVAI3j0I7kpIxmBb5vyGMY1ydHJ9ZzliQdrHDE62fbBcVa1lTJc1FyXWLIVtT9E48h9Og5Th_YLoAkddDb6e2JGpw?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -77.12339,38.84893,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Tualatin REI</name>
+        
+        
+        
+        
+        <address>Tualatin REI 7410 SW BRIDGEPORT RD Tigard Oregon 97224-7789</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRI2I2tUogJQNBkiIKAlPcVOhGmWUdyot4MMqHFJr_vEm7C3N2l_6hqOBQs6gKooT4eNeiG8r0RaxTPNvOBAyrhvzBVTSzLPmFcHnPiPmkjCOKa1-jWyqWNxhkq57jgIyVf2Tnw-j7tVCwZYWXzv2ab6nDrdaH8I7as-Cq5x_pHSKkKTCpGRuf0j1UfR6I9aHYKNmIwAlBTzC7hTVq4O3tBSLEP18xVq955GOM3AdHWj_0_pzKX-13b724?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 36&lt;br&gt;Address: 7410 SW BRIDGEPORT RD&lt;br&gt;unnamed (1): &lt;br&gt;City: Tigard&lt;br&gt;State: Oregon&lt;br&gt;Zip: 97224-7789&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>36.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>7410 SW BRIDGEPORT RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Tigard</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Oregon</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>97224-7789</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRI2I2tUogJQNBkiIKAlPcVOhGmWUdyot4MMqHFJr_vEm7C3N2l_6hqOBQs6gKooT4eNeiG8r0RaxTPNvOBAyrhvzBVTSzLPmFcHnPiPmkjCOKa1-jWyqWNxhkq57jgIyVf2Tnw-j7tVCwZYWXzv2ab6nDrdaH8I7as-Cq5x_pHSKkKTCpGRuf0j1UfR6I9aHYKNmIwAlBTzC7hTVq4O3tBSLEP18xVq955GOM3AdHWj_0_pzKX-13b724?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-122.7523635,45.3931317,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Conshohocken REI</name>
+        
+        
+        
+        
+        <address>Conshohocken REI 200 W RIDGE PIKE Conshohocken Pennsylvania 19428-1219</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQUCeGKHdr2yvvBec9_WJymNkrTATjN0j2Q5VC5O_fd7rXMfaaUZHOsuYZBsDY_rUZ-CF609G2UdPe99M0BvJ7smTujn-2Ol0EMKz3Vl6AkfsrE8tt5VjgKWCZLUuzfzutEJiTHQ2mckUINsFpk51lNDLtCaWXqChmF9wGkFW9nFxSqqzxNZ4CbyqhaUZnyIstyRELgFOFSrGVs7fhlyLXuOEvmAdUEJh7GW8RuJtA_f6Uy7Ns4vofYiJ0?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 37&lt;br&gt;Address: 200 W RIDGE PIKE&lt;br&gt;unnamed (1): &lt;br&gt;City: Conshohocken&lt;br&gt;State: Pennsylvania&lt;br&gt;Zip: 19428-1219&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>37.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>200 W RIDGE PIKE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Conshohocken</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Pennsylvania</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>19428-1219</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQUCeGKHdr2yvvBec9_WJymNkrTATjN0j2Q5VC5O_fd7rXMfaaUZHOsuYZBsDY_rUZ-CF609G2UdPe99M0BvJ7smTujn-2Ol0EMKz3Vl6AkfsrE8tt5VjgKWCZLUuzfzutEJiTHQ2mckUINsFpk51lNDLtCaWXqChmF9wGkFW9nFxSqqzxNZ4CbyqhaUZnyIstyRELgFOFSrGVs7fhlyLXuOEvmAdUEJh7GW8RuJtA_f6Uy7Ns4vofYiJ0?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        <Point>
+          
+          
+          <coordinates>-75.28758,40.09576,0</coordinates>
+          
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>San Carlos REI</name>
+        
+        
+        
+        
+        <address>San Carlos REI 1119 INDUSTRIAL RD San Carlos California 94070</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGS0T41RTHWzNJsSY_Bvofg0eu3G0SaXxKcUnsWcsVk8HAc2OuOmj7gtjIKqQ5XH2vWDJUxwclmMfO0G_UBX273S8kAJtdnpGVwtqOp01FmDHesFTHYn4qIovtgFrklBDFqa3o_yFN71Z2_wwNeylax7tDqTFhbOZanEq6kFfJdK8LskbFDewAkiQIiOatPWAxgnEQjGodUST0KfPc1FnQl96VokRuThsD4DSNB5CW0rsxSjMbF53VYjr9Q?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 38&lt;br&gt;Address: 1119 INDUSTRIAL RD&lt;br&gt;unnamed (1): &lt;br&gt;City: San Carlos&lt;br&gt;State: California&lt;br&gt;Zip: 94070&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>38.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1119 INDUSTRIAL RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>San Carlos</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>94070</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGS0T41RTHWzNJsSY_Bvofg0eu3G0SaXxKcUnsWcsVk8HAc2OuOmj7gtjIKqQ5XH2vWDJUxwclmMfO0G_UBX273S8kAJtdnpGVwtqOp01FmDHesFTHYn4qIovtgFrklBDFqa3o_yFN71Z2_wwNeylax7tDqTFhbOZanEq6kFfJdK8LskbFDewAkiQIiOatPWAxgnEQjGodUST0KfPc1FnQl96VokRuThsD4DSNB5CW0rsxSjMbF53VYjr9Q?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-122.251796,37.507638,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Boulder REI</name>
+        
+        
+        
+        
+        <address>Boulder REI 1789 28TH ST Boulder Colorado 80301</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRd21UmRquGYJgUYquM1NpfkFdANXk8KW1AYqJjT9FjSFcH_cVwgocO_efUJryHVE_AuvpXUiTE4G1jzqP39wgnaPifx5zpOru2DPuUU1pN2Q0gx8GjhclUp0Z_g2PGFWFouZEHZ9SsT1YGFE6ML7F2gtdwqlWKrSe_t8DPNQaeOmQSSzlssXJiCXFf1yUcAN4QVeQLGdYpWFIQ58SVI9PeRJMnAi_CY6_9Bv3Q5Qs-deFN9eD4VbPoX30?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 44&lt;br&gt;Address: 1789 28TH ST&lt;br&gt;unnamed (1): &lt;br&gt;City: Boulder&lt;br&gt;State: Colorado&lt;br&gt;Zip: 80301&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>44.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1789 28TH ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Boulder</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Colorado</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>80301</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRd21UmRquGYJgUYquM1NpfkFdANXk8KW1AYqJjT9FjSFcH_cVwgocO_efUJryHVE_AuvpXUiTE4G1jzqP39wgnaPifx5zpOru2DPuUU1pN2Q0gx8GjhclUp0Z_g2PGFWFouZEHZ9SsT1YGFE6ML7F2gtdwqlWKrSe_t8DPNQaeOmQSSzlssXJiCXFf1yUcAN4QVeQLGdYpWFIQ58SVI9PeRJMnAi_CY6_9Bv3Q5Qs-deFN9eD4VbPoX30?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-105.259555,40.0191816,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Paradise Valley REI</name>
+        
+        
+        
+        
+        <address>Paradise Valley REI 12634 N PARADISE VILLAGE PKWY Phoenix Arizona 85032-7671</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTV3ITtr1qf4hv1Vb_yP3JkgrPTk2GwwXCl4zjNdOltuhF_JH-sJ0YeZ8jz3UXCEIZGyJJtgJdyormFG4Vk_wBVgJ9FMd8TkSqBbaVvAa_GKhWb8uZNcARrwRgcPG0YQb3RxYBAAd3xO5OZYrfQ39IoWDtYneCAy4n8lwNUZFkZ92K5KFLnmpYTIgyUKkJWC4ZlnOs2Zkm5afF5PYx-lu-tnEHQE-TebqOQcYwMt-7lXz5T57FvD2g6rQI?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 56&lt;br&gt;Address: 12634 N PARADISE VILLAGE PKWY&lt;br&gt;unnamed (1): &lt;br&gt;City: Phoenix&lt;br&gt;State: Arizona&lt;br&gt;Zip: 85032-7671&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>56.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>12634 N PARADISE VILLAGE PKWY</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Phoenix</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Arizona</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>85032-7671</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTV3ITtr1qf4hv1Vb_yP3JkgrPTk2GwwXCl4zjNdOltuhF_JH-sJ0YeZ8jz3UXCEIZGyJJtgJdyormFG4Vk_wBVgJ9FMd8TkSqBbaVvAa_GKhWb8uZNcARrwRgcPG0YQb3RxYBAAd3xO5OZYrfQ39IoWDtYneCAy4n8lwNUZFkZ92K5KFLnmpYTIgyUKkJWC4ZlnOs2Zkm5afF5PYx-lu-tnEHQE-TebqOQcYwMt-7lXz5T57FvD2g6rQI?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        <Point>
+          
+          
+          <coordinates>
+            -111.98918,33.6021,0
+          </coordinates>
+          
+        
+        </Point>
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Northville REI</name>
+        
+        
+        
+        
+        <address>Northville REI 17559 HAGGERTY RD Northville Michigan 48168-9542</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGROI4DDice-yBDk7GVno1sRwydbzEMnGif9dhi_zoLHRNwcWEngYNPYc61kTgMUddsv78jS32w3kRiIq9kgUoP-Rm__6ZwRl1MEVskCzwNbUWqqTmtB9hgT9mAnL1VTpOcmPTY9ySCCIauiGB-Nzj3H_S_OdMvVME2zxezTtOXdMwfW2ibXuyLxMpEZsn2bpNp2EdKTe9S_tllYpBiVjSpEjd9dE5m7yiyuAOaMs-GVK8pysSvzv2VHsws?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 58&lt;br&gt;Address: 17559 HAGGERTY RD&lt;br&gt;unnamed (1): &lt;br&gt;City: Northville&lt;br&gt;State: Michigan&lt;br&gt;Zip: 48168-9542&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>58.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>17559 HAGGERTY RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Northville</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Michigan</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>48168-9542</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGROI4DDice-yBDk7GVno1sRwydbzEMnGif9dhi_zoLHRNwcWEngYNPYc61kTgMUddsv78jS32w3kRiIq9kgUoP-Rm__6ZwRl1MEVskCzwNbUWqqTmtB9hgT9mAnL1VTpOcmPTY9ySCCIauiGB-Nzj3H_S_OdMvVME2zxezTtOXdMwfW2ibXuyLxMpEZsn2bpNp2EdKTe9S_tllYpBiVjSpEjd9dE5m7yiyuAOaMs-GVK8pysSvzv2VHsws?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-83.4354534,42.4139217,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Greenwood Village REI</name>
+        
+        
+        
+        
+        <address>Greenwood Village REI 9000 E PEAKVIEW AVE Greenwood Village Colorado 80111</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRSJOmTj-TxQyihgw8nlpHdR5JkcesLRKZUqNHx1MmZU6MgLv9GpNNPj-t4dN2RSx3mbM59xh1SAyTLOrZEPSfqIAdJWp7otToOk_jfC-ThmAGysCbMBMqvk8WNqkKYe6G9TtT28JR1XemfeXZhNHGNEvt8nd_JuWU6Kln5ZyonUzBvf9JQFx6ja0c2nPY98oLxIepdRmtdaMeMFvdXwj-i5yEzNYt1fOI3NE8puxibXxDLLM_UzFQYRp8?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 61&lt;br&gt;Address: 9000 E PEAKVIEW AVE&lt;br&gt;unnamed (1): &lt;br&gt;City: Greenwood Village&lt;br&gt;State: Colorado&lt;br&gt;Zip: 80111&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>61.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>9000 E PEAKVIEW AVE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Greenwood Village</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Colorado</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>80111</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRSJOmTj-TxQyihgw8nlpHdR5JkcesLRKZUqNHx1MmZU6MgLv9GpNNPj-t4dN2RSx3mbM59xh1SAyTLOrZEPSfqIAdJWp7otToOk_jfC-ThmAGysCbMBMqvk8WNqkKYe6G9TtT28JR1XemfeXZhNHGNEvt8nd_JuWU6Kln5ZyonUzBvf9JQFx6ja0c2nPY98oLxIepdRmtdaMeMFvdXwj-i5yEzNYt1fOI3NE8puxibXxDLLM_UzFQYRp8?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-104.8857425,39.5981344,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Brentwood REI</name>
+        
+        
+        
+        
+        <address>Brentwood REI 261 FRANKLIN RD Brentwood Tennessee 37027</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSQlaHtjVltlReFK87PFfYi3PnfaNWCtcbnMizmiIgAcdxRw069TNbw-Z2ExG3AW9-uj5JRW1RbMNU0nbga0Q_5kMAdJ4R9RCU8uEZuhz2lac0zmEFGmggeACoI_11NhV7tP6geZISwoxmKegRGeEF_TM1aLTbc_BQfY9iI4kDuEzlfvDA51d154sJEL3L0YXA4mDQsxWzSrDo-yCUKU_BVzou3LzxyVxU8hW_Ref2N0yo7bAgtBKQiKZw?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 64&lt;br&gt;Address: 261 FRANKLIN RD&lt;br&gt;unnamed (1): &lt;br&gt;City: Brentwood&lt;br&gt;State: Tennessee&lt;br&gt;Zip: 37027&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>64.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>261 FRANKLIN RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Brentwood</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Tennessee</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>37027</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSQlaHtjVltlReFK87PFfYi3PnfaNWCtcbnMizmiIgAcdxRw069TNbw-Z2ExG3AW9-uj5JRW1RbMNU0nbga0Q_5kMAdJ4R9RCU8uEZuhz2lac0zmEFGmggeACoI_11NhV7tP6geZISwoxmKegRGeEF_TM1aLTbc_BQfY9iI4kDuEzlfvDA51d154sJEL3L0YXA4mDQsxWzSrDo-yCUKU_BVzou3LzxyVxU8hW_Ref2N0yo7bAgtBKQiKZw?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-86.7917155,36.0303223,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Colorado Springs REI</name>
+        
+        
+        
+        
+        <address>Colorado Springs REI 1376 E WOODMEN RD Colorado Springs Colorado 80920-3162</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSjmkXneGBRMYN6samTeHLO3-Ke3CRbCwFW-CRwhEdayG1wp0dcC1KvWz_9ty_4J4cPyqq03vJEs1VY1OT6MqkoxzkbuTa8eDX4NhIOjFKizd5zVhIgX0svlwEFMGFjQzVo7UBi5KsHg1xtiBuU6APByzVNQIW3zfGfZtE5z4gqTNYW1k5mub7QZcPxPalpN6otzoqXvig14R5Iua_YuVqiDIA4Bbk6GcZQpMFI2ygPl-Rta1FVRrLPBI0?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 68&lt;br&gt;Address: 1376 E WOODMEN RD&lt;br&gt;unnamed (1): &lt;br&gt;City: Colorado Springs&lt;br&gt;State: Colorado&lt;br&gt;Zip: 80920-3162&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>68.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1376 E WOODMEN RD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Colorado Springs</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Colorado</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>80920-3162</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSjmkXneGBRMYN6samTeHLO3-Ke3CRbCwFW-CRwhEdayG1wp0dcC1KvWz_9ty_4J4cPyqq03vJEs1VY1OT6MqkoxzkbuTa8eDX4NhIOjFKizd5zVhIgX0svlwEFMGFjQzVo7UBi5KsHg1xtiBuU6APByzVNQIW3zfGfZtE5z4gqTNYW1k5mub7QZcPxPalpN6otzoqXvig14R5Iua_YuVqiDIA4Bbk6GcZQpMFI2ygPl-Rta1FVRrLPBI0?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-104.7997621,38.9338309,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>San Francisco REI</name>
+        
+        
+        
+        
+        <address>San Francisco REI 840 BRANNAN ST San Francisco California 94103</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSO5mUHe2K8TPw3HGEo-yUB04MYQQO6krYVvXJQCBwZUqzB6Lz32ClOL12P3o6Trd8FK-bTQrT3Q6rPmH7JhE6FEnOCys-NOjzQqQI8Wynbmd--FEqNuz3m-gXJAEUHTs8H_CiR3vRcs2LddVFDxAhU7GNRPGE-9mtCWjNUwnXBpnn9VLDp73Ckp0qNcSPv4sJU2FnyWOLMFkq9k8F-4K_WluJE5NR-vWsoC0dNWnBjWQReCZW4vARZe7g?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 83&lt;br&gt;Address: 840 BRANNAN ST&lt;br&gt;unnamed (1): &lt;br&gt;City: San Francisco&lt;br&gt;State: California&lt;br&gt;Zip: 94103&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>83.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>840 BRANNAN ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>San Francisco</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>94103</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSO5mUHe2K8TPw3HGEo-yUB04MYQQO6krYVvXJQCBwZUqzB6Lz32ClOL12P3o6Trd8FK-bTQrT3Q6rPmH7JhE6FEnOCys-NOjzQqQI8Wynbmd--FEqNuz3m-gXJAEUHTs8H_CiR3vRcs2LddVFDxAhU7GNRPGE-9mtCWjNUwnXBpnn9VLDp73Ckp0qNcSPv4sJU2FnyWOLMFkq9k8F-4K_WluJE5NR-vWsoC0dNWnBjWQReCZW4vARZe7g?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-122.4046129,37.7727376,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Rockville REI</name>
+        
+        
+        
+        
+        <address>Rockville REI 910 ROSE AVENUE Rockville Maryland 20852</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQSNis64i0EDo0QlhN-cA_swqwVMBgPcX3PaEX7Pfwl0xYDqD4pFZFJWA5cWj3iftCjVX9q8DWL5msTBF1Y24nZpJlhoyukGuphQY9svubbrmIkGAdtCfXi9H267DpMyRHUGEXBkQqCH5XGANbg1Rpcm4HljlonbYfMqiRLwxTkIKdtFdTVVhh6cINt8-V5lPOEBBbf5_1imHSERkJWHpqFgAmFvdbFQHR6ok6vayl4hvcSyDNWFtWG2YQ?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 91&lt;br&gt;Address: 910 ROSE AVENUE&lt;br&gt;unnamed (1): &lt;br&gt;City: Rockville&lt;br&gt;State: Maryland&lt;br&gt;Zip: 20852&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>91.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>910 ROSE AVENUE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Rockville</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Maryland</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>20852</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQSNis64i0EDo0QlhN-cA_swqwVMBgPcX3PaEX7Pfwl0xYDqD4pFZFJWA5cWj3iftCjVX9q8DWL5msTBF1Y24nZpJlhoyukGuphQY9svubbrmIkGAdtCfXi9H267DpMyRHUGEXBkQqCH5XGANbg1Rpcm4HljlonbYfMqiRLwxTkIKdtFdTVVhh6cINt8-V5lPOEBBbf5_1imHSERkJWHpqFgAmFvdbFQHR6ok6vayl4hvcSyDNWFtWG2YQ?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-77.1158904,39.0508883,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Sunnyvale REI</name>
+        
+        
+        
+        
+        <address>Sunnyvale REI 130 E EL CAMINO REAL Sunnyvale California 94087</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRxnNvMwS4iMFFwBdlQSf6n_QxVDlXureiTgX-tpjL-iPcJU_x9N0zx2rdSr9362kGb__5NEbLqwvSwL7zztczSTX61XTrR05riIa-zMGtVOvmz8tfu2h71jBNDuMwlhY3vsrMPbEwqXazZkyDPVBq-nH3nnrl_OHWrDqaeRmf2eUA3iPYm8kv8r6tswDNSqNpNmofAUxdu7UNrZLFwbTmAsdmWcRM8UQtlqgfkuMHrv4WnFlM_CMeidtE?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 104&lt;br&gt;Address: 130 E EL CAMINO REAL&lt;br&gt;unnamed (1): &lt;br&gt;City: Sunnyvale&lt;br&gt;State: California&lt;br&gt;Zip: 94087&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>104.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>130 E EL CAMINO REAL</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Sunnyvale</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>94087</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRxnNvMwS4iMFFwBdlQSf6n_QxVDlXureiTgX-tpjL-iPcJU_x9N0zx2rdSr9362kGb__5NEbLqwvSwL7zztczSTX61XTrR05riIa-zMGtVOvmz8tfu2h71jBNDuMwlhY3vsrMPbEwqXazZkyDPVBq-nH3nnrl_OHWrDqaeRmf2eUA3iPYm8kv8r6tswDNSqNpNmofAUxdu7UNrZLFwbTmAsdmWcRM8UQtlqgfkuMHrv4WnFlM_CMeidtE?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-122.03171,37.3656921,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Lincoln Park REI</name>
+        
+        
+        
+        
+        <address>Lincoln Park REI 905 WEST EASTMAN ST Chicago Illinois 60642</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGT4m1jy9V9qOuynwgkqPhqbhIoPYeMC2yZ5KJ0T3lgWzedTKDXBA6y8mrt3x8oN41iZXqYw958W0Qv4X2nnTYWQhfM2U5j0ELRQNTmCdtbb1canHU9NEUlXKbdEq7RYPOQJnAA9d4ZNxT4IXh2PKCpp5CaNbD7-y1tIYBOGTYvK3eyJWqys3NEjPU-PjsjVvejd9hwmR3I_iZmQ_N3dNku0m_N-V57gZdXhosC-vGdDGC7yLcEiLpgSL2Y?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 123&lt;br&gt;Address: 905 WEST EASTMAN ST&lt;br&gt;unnamed (1): &lt;br&gt;City: Chicago&lt;br&gt;State: Illinois&lt;br&gt;Zip: 60642&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>123.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>905 WEST EASTMAN ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Chicago</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Illinois</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>60642</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGT4m1jy9V9qOuynwgkqPhqbhIoPYeMC2yZ5KJ0T3lgWzedTKDXBA6y8mrt3x8oN41iZXqYw958W0Qv4X2nnTYWQhfM2U5j0ELRQNTmCdtbb1canHU9NEUlXKbdEq7RYPOQJnAA9d4ZNxT4IXh2PKCpp5CaNbD7-y1tIYBOGTYvK3eyJWqys3NEjPU-PjsjVvejd9hwmR3I_iZmQ_N3dNku0m_N-V57gZdXhosC-vGdDGC7yLcEiLpgSL2Y?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-87.651262,41.9067786,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Dublin REI</name>
+        
+        
+        
+        
+        <address>Dublin REI 7099 AMADOR PLAZA ROAD Dublin California 94568</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRKemgzwnnfoFEDq2r-7VYBqKOfL0qs-OqXGvA-WTPAYwn8VgEiHITGAUVsfH_FdzH5Mm23mCJ05c4KPwj6IAgp3U2SuKc1yZMiRK0iCUpglftDdbg2TvDiNSz7-vWTU8lBkp_jdVQObVENBGuDcLVmltDTpJYDqY24K8PTDikzzuhMGllj0YHv_NDIY6h-EMa0ElbF1GhonhLpRV1BimQZbK5LD07EPQIAC2q25pXQWYaL2ONJlTt9hG4?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 143&lt;br&gt;Address: 7099 AMADOR PLAZA ROAD&lt;br&gt;unnamed (1): &lt;br&gt;City: Dublin&lt;br&gt;State: California&lt;br&gt;Zip: 94568&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>143.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>7099 AMADOR PLAZA ROAD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Dublin</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>94568</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRKemgzwnnfoFEDq2r-7VYBqKOfL0qs-OqXGvA-WTPAYwn8VgEiHITGAUVsfH_FdzH5Mm23mCJ05c4KPwj6IAgp3U2SuKc1yZMiRK0iCUpglftDdbg2TvDiNSz7-vWTU8lBkp_jdVQObVENBGuDcLVmltDTpJYDqY24K8PTDikzzuhMGllj0YHv_NDIY6h-EMa0ElbF1GhonhLpRV1BimQZbK5LD07EPQIAC2q25pXQWYaL2ONJlTt9hG4?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-121.927889,37.7067694,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Woodland Hills REI</name>
+        
+        
+        
+        
+        <address>Woodland Hills REI 6220 TOPANGA CANYON BLVD Woodland Hills California 91367</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSX8lNfiEHMGPcRVP3Y-r4sqmONJBs_luzTYSVTfYYi8Gvw6U89xCU9mgfihpoXmUYmuDo-FTuMpXfS4Szsj4h1qmYjEF39sW5u_g9FcQ3xSkQL3diUVs1TEyw2koAhk1sV8AUECqNDu-KxK1Irz8k8e2FKsktVT9i_IMklcUqCYR6uG36jU7EAtAopIDdMjnBLBvouvvUH9q0wfdvoDlhT2vhnDSwOhqR_Hy0_cnfcZBOj6tMw69LhtCY?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 148&lt;br&gt;Address: 6220 TOPANGA CANYON BLVD&lt;br&gt;unnamed (1): &lt;br&gt;City: Woodland Hills&lt;br&gt;State: California&lt;br&gt;Zip: 91367&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>148.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>6220 TOPANGA CANYON BLVD</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Woodland Hills</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>91367</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSX8lNfiEHMGPcRVP3Y-r4sqmONJBs_luzTYSVTfYYi8Gvw6U89xCU9mgfihpoXmUYmuDo-FTuMpXfS4Szsj4h1qmYjEF39sW5u_g9FcQ3xSkQL3diUVs1TEyw2koAhk1sV8AUECqNDu-KxK1Irz8k8e2FKsktVT9i_IMklcUqCYR6uG36jU7EAtAopIDdMjnBLBvouvvUH9q0wfdvoDlhT2vhnDSwOhqR_Hy0_cnfcZBOj6tMw69LhtCY?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-118.6048045,34.1845393,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Tysons REI</name>
+        
+        
+        
+        
+        <address>Tysons REI 8209 WATSON ST McLean Virginia 22102</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTcJ3gDeAAMi1ZYeiTjxwrcfEKdJWZSXmNqrrTctehvHe28N6OoEa9-JYkrEEfdKsCRzgK-YJIXRVwoPNZCFFVefgCwJjXwWGI31Kkf2LGC9ImnxEel24slqB7-kpnp-8NWMB93YURUXqM_1vxIrrD8firUBn06rrB9ieg60G9mMOwG-gKs3ncKawU660DzxPJwkWs09PJkXMynyQD-gYF8A9A9Zpu8RrnbpD8FwIBv_Atet5GrTitYFzo?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 152&lt;br&gt;Address: 8209 WATSON ST&lt;br&gt;unnamed (1): &lt;br&gt;City: McLean&lt;br&gt;State: Virginia&lt;br&gt;Zip: 22102&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>152.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>8209 WATSON ST</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>McLean</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Virginia</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>22102</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTcJ3gDeAAMi1ZYeiTjxwrcfEKdJWZSXmNqrrTctehvHe28N6OoEa9-JYkrEEfdKsCRzgK-YJIXRVwoPNZCFFVefgCwJjXwWGI31Kkf2LGC9ImnxEel24slqB7-kpnp-8NWMB93YURUXqM_1vxIrrD8firUBn06rrB9ieg60G9mMOwG-gKs3ncKawU660DzxPJwkWs09PJkXMynyQD-gYF8A9A9Zpu8RrnbpD8FwIBv_Atet5GrTitYFzo?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-77.2287536,38.9184593,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>King of Prussia REI</name>
+        
+        
+        
+        
+        <address>King of Prussia REI 161 TOWN SQUARE PLACE King of Prussia Pennsylvania 19406</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSQf9xB4dSJwfOuA6CIcr2L3k2w-vC26gjNCrP80IThjY1WUQoCAW5ZOdfYgU15ARqapsTmNL2W_wszSYCA8NOKOc6-HdiNKIkavdABaAkuTQs6rf8ApjB9e93M-dNARxC-eGnl-gJTHlmxVzlWvVt6BBzSdNh35n6Psjn4UcrBahOrKph-mGgTpQIK3CcMi-fWcLGpmeYk5w4A0U3nh_YoXRiY8vlw12xaHr46_CRtBgqxGiuZaEbTSFI?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 162&lt;br&gt;Address: 161 TOWN SQUARE PLACE&lt;br&gt;unnamed (1): &lt;br&gt;City: King of Prussia&lt;br&gt;State: Pennsylvania&lt;br&gt;Zip: 19406&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>162.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>161 TOWN SQUARE PLACE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>King of Prussia</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Pennsylvania</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>19406</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSQf9xB4dSJwfOuA6CIcr2L3k2w-vC26gjNCrP80IThjY1WUQoCAW5ZOdfYgU15ARqapsTmNL2W_wszSYCA8NOKOc6-HdiNKIkavdABaAkuTQs6rf8ApjB9e93M-dNARxC-eGnl-gJTHlmxVzlWvVt6BBzSdNh35n6Psjn4UcrBahOrKph-mGgTpQIK3CcMi-fWcLGpmeYk5w4A0U3nh_YoXRiY8vlw12xaHr46_CRtBgqxGiuZaEbTSFI?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        <Point>
+          
+          
+          <coordinates>
+            -75.40512,40.08273,0
+          </coordinates>
+          
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Washington D.C. REI</name>
+        
+        
+        
+        
+        <address>Washington D.C. REI 201 M STREET NE Washington DC 20002</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRsotXJntFdcU9eeYtTRq2SzLSIzhQvrdX8iKf8q6GOT6RQ1GXiH7l1O3AmJBjX9ja10SxvsBCEIzEcArruio3ASENGPKAguEqpgVNx-o98vitz5Rwtk2l4n2My_taT9fyTjK5ooEmF7_P5PHuN7OOs-XpuPqbieAcQVPsNS7orcjBJ75X-6-3OJvQIfN0eFeoQtXdCPvfycoAuq8v5r51AG2pC_IZuDNsRMrFAB_5qg66UacI3vAPUznc?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 169&lt;br&gt;Address: 201 M STREET NE&lt;br&gt;unnamed (1): &lt;br&gt;City: Washington&lt;br&gt;State: DC&lt;br&gt;Zip: 20002&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>169.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>201 M STREET NE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Washington</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>DC</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>20002</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRsotXJntFdcU9eeYtTRq2SzLSIzhQvrdX8iKf8q6GOT6RQ1GXiH7l1O3AmJBjX9ja10SxvsBCEIzEcArruio3ASENGPKAguEqpgVNx-o98vitz5Rwtk2l4n2My_taT9fyTjK5ooEmF7_P5PHuN7OOs-XpuPqbieAcQVPsNS7orcjBJ75X-6-3OJvQIfN0eFeoQtXdCPvfycoAuq8v5r51AG2pC_IZuDNsRMrFAB_5qg66UacI3vAPUznc?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-77.0028936,38.9053987,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Burbank REI</name>
+        
+        
+        
+        
+        <address>Burbank REI 1900 W EMPIRE AVE Burbank California 91504</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSxCEhHSZ8HAp8IYHHO8ig09DRoxQkswqmmPVA_dgRjqaJ8EevQyhoPL38GFRCGsvWE3vFtoVAmsoOteSbs7Wwyf9I54c2vrneYGFljvgLKjHawG-BY9b9k5X62j_ObZ0FZilCtyBumOqHHEVVtztoHplNfXuF_hU0xS819__0nHhoFbeY8R7LXEbVzqTx-AO5P89XJHa-Hz7g6vivK8YNZB9k4nPEOvQi5xsuAqIk3wRiA0h0j70MnQFQ?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 183&lt;br&gt;Address: 1900 W EMPIRE AVE&lt;br&gt;unnamed (1): &lt;br&gt;City: Burbank&lt;br&gt;State: California&lt;br&gt;Zip: 91504&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>183.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>1900 W EMPIRE AVE</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Burbank</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>91504</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSxCEhHSZ8HAp8IYHHO8ig09DRoxQkswqmmPVA_dgRjqaJ8EevQyhoPL38GFRCGsvWE3vFtoVAmsoOteSbs7Wwyf9I54c2vrneYGFljvgLKjHawG-BY9b9k5X62j_ObZ0FZilCtyBumOqHHEVVtztoHplNfXuF_hU0xS819__0nHhoFbeY8R7LXEbVzqTx-AO5P89XJHa-Hz7g6vivK8YNZB9k4nPEOvQi5xsuAqIk3wRiA0h0j70MnQFQ?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-118.3325055,34.1917138,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Laguna Hills REI</name>
+        
+        
+        
+        
+        <address>Laguna Hills REI 24271 Avenida De La Carlota Laguna Hills California 92653-3606</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSlQEdwlqs-3eE6RZSZXXL-YVYmwyiBlmkgCahiWsnfThS2BZIVw-_p2lx7lrC4Pu2RB8nAYJOMGxuVYduNSlQoJFpW3z-4Qdio2r0psf1WVgS7NW1MkHLckpFId86M3_byjsATwJE8ulQumkOk4fHO2_XCv2lSLmupeDcdzvbBo27Z36kQa1gba_KNwYIe5L3VISP5ZaSQGv1efb_VtWfXqIe9wOJNwDKyjaDIU0_mrwMlfWz4RN_Hg7w?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 273&lt;br&gt;Address: 24271 Avenida De La Carlota&lt;br&gt;unnamed (1): &lt;br&gt;City: Laguna Hills&lt;br&gt;State: California&lt;br&gt;Zip: 92653-3606&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>273.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>24271 Avenida De La Carlota</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Laguna Hills</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>California</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>92653-3606</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSlQEdwlqs-3eE6RZSZXXL-YVYmwyiBlmkgCahiWsnfThS2BZIVw-_p2lx7lrC4Pu2RB8nAYJOMGxuVYduNSlQoJFpW3z-4Qdio2r0psf1WVgS7NW1MkHLckpFId86M3_byjsATwJE8ulQumkOk4fHO2_XCv2lSLmupeDcdzvbBo27Z36kQa1gba_KNwYIe5L3VISP5ZaSQGv1efb_VtWfXqIe9wOJNwDKyjaDIU0_mrwMlfWz4RN_Hg7w?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-117.7037001,33.608348,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Beaverton REI</name>
+        
+        
+        
+        
+        <address>Beaverton REI 2780 SW Cedar Hills Blvd Beaverton Oregon 97005</address>
+        
+        
+        
+        
+        <description>&lt;img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRcVq9wf8QLA5UXJ24aQlkXXr9bj2jTs1yNE-DPqQCR71OZnGnDEJSUiC_KJrWg9B1vjSs8e6UtoL7WlnxvXlcMmhXwX1bjNbclATXIV7a7CMboMbpaMOuu05O2yMYglQtoaXzhwXPnKlOpojPPpotgsUgiS1gqrAn7vzWSBnIzmrAwddLl0pX0JvLQfxj1kJOFJziCHNW-iFeV68RIpoyk6gEUH3Bp9kMHJ0QBRBhRqT4uBsLAlN3JU_o?authuser=0&amp;fife=s16383" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;﻿Store #: 288&lt;br&gt;Address: 2780 SW Cedar Hills Blvd&lt;br&gt;unnamed (1): &lt;br&gt;City: Beaverton&lt;br&gt;State: Oregon&lt;br&gt;Zip: 97005&lt;br&gt;Website: www.rei.com</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value>288.0</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value>2780 SW Cedar Hills Blvd</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value>Beaverton</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value>Oregon</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value>97005</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value>www.rei.com</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="gx_media_links">
+            
+            
+            
+            
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRcVq9wf8QLA5UXJ24aQlkXXr9bj2jTs1yNE-DPqQCR71OZnGnDEJSUiC_KJrWg9B1vjSs8e6UtoL7WlnxvXlcMmhXwX1bjNbclATXIV7a7CMboMbpaMOuu05O2yMYglQtoaXzhwXPnKlOpojPPpotgsUgiS1gqrAn7vzWSBnIzmrAwddLl0pX0JvLQfxj1kJOFJziCHNW-iFeV68RIpoyk6gEUH3Bp9kMHJ0QBRBhRqT4uBsLAlN3JU_o?authuser=0&amp;fife=s16383</value>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+      
+        
+        <Point>
+          
+          
+          <coordinates>-122.8054038,45.4994403,0</coordinates>
+          
+        
+        </Point>
+        
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -73.1141099,44.4434577,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -72.7570365,41.7260364,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -71.087041,42.525537,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -73.9952085,40.724848,0
+          </coordinates>
+          
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Bend REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -121.315088,44.046316,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -110.9737185,32.2876224,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -122.056514,37.968654,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -122.51701,37.928014,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -82.5044155,27.9532005,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -80.1968841,26.3664146,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -80.0947918,26.849531,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -97.740595,30.389364,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -96.7626536,32.8662961,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -95.502246,29.7399103,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>REI</name>
+        
+        
+        
+        
+        <description>﻿Store #: &lt;br&gt;Address: &lt;br&gt;unnamed (1): &lt;br&gt;City: &lt;br&gt;State: &lt;br&gt;Zip: &lt;br&gt;Website: </description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <ExtendedData>
+          
+          
+          
+          
+          <Data name="﻿Store #">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Address">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="unnamed (1)">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="City">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="State">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Zip">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+          
+          
+          <Data name="Website">
+            
+            
+            
+            
+            <value/>
+            
+            
+          
+          
+          </Data>
+          
+          
+        
+        
+        </ExtendedData>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -97.4137625,32.6990598,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+    </Document>
+</kml>

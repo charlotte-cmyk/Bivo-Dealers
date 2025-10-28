@@ -1,0 +1,547 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  
+  
+  
+  
+  <Document>
+    
+    
+    
+    
+    <name>Bivo Dealers</name>
+    
+    
+    
+    
+    <description/>
+    
+    
+    
+    
+    <Style id="icon-1522-1A237E-normal">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff7e231a</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <LabelStyle>
+        
+        
+        
+        
+        <scale>0</scale>
+        
+        
+      
+      
+      </LabelStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <Style id="icon-1522-1A237E-highlight">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff7e231a</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <LabelStyle>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+      
+      
+      </LabelStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <StyleMap id="icon-1522-1A237E">
+      
+      
+      
+      
+      <Pair>
+        
+        
+        
+        
+        <key>normal</key>
+        
+        
+        
+        
+        <styleUrl>#icon-1522-1A237E-normal</styleUrl>
+        
+        
+      
+      
+      </Pair>
+      
+      
+      
+      
+      <Pair>
+        
+        
+        
+        
+        <key>highlight</key>
+        
+        
+        
+        
+        <styleUrl>#icon-1522-1A237E-highlight</styleUrl>
+        
+        
+      
+      
+      </Pair>
+      
+      
+    
+    
+    </StyleMap>
+    
+    
+    
+    
+    <Style id="icon-1899-DB4436-labelson">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff3644db</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+        
+        
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+    
+    
+    </Style>
+    
+    
+    
+    
+    <Style id="icon-1899-DB4436-labelson-nodesc">
+      
+      
+      
+      
+      <IconStyle>
+        
+        
+        
+        
+        <color>ff3644db</color>
+        
+        
+        
+        
+        <scale>1</scale>
+        
+        
+        
+        
+        <Icon>
+          
+          
+          
+          
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          
+          
+        
+        
+        </Icon>
+        
+        
+        
+        
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        
+        
+      
+      
+      </IconStyle>
+      
+      
+      
+      
+      <BalloonStyle>
+        
+        
+        
+        
+        <text>&lt;h3&gt;$[name]&lt;/h3&gt;</text>
+        
+        
+      
+      
+      </BalloonStyle>
+      
+      
+    
+    
+    </Style>
+    <Placemark>
+        
+        
+        
+        
+        <name>Contender Bicycles</name>
+        
+        
+        
+        
+        <description>Roamer Salt Lake City: &lt;br&gt;https://drinkbivo.com/blogs/news/roamer-the-best-riding-near-salt-lake-city-utah</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -111.8626808,40.7501254,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Contender Bicycles</name>
+        
+        
+        
+        
+        <description>Roamer Salt Lake City: &lt;br&gt;https://drinkbivo.com/blogs/news/roamer-the-best-riding-near-salt-lake-city-utah</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -111.5377922,40.6833807,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Over the Edge Sports Fruita Ltd</name>
+        
+        
+        
+        
+        <description>Roamer Fruita: &lt;br&gt;https://drinkbivo.com/blogs/news/roamer-the-best-riding-near-fruita-co</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -108.7322994,39.1586516,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>River City Bicycles</name>
+        
+        
+        
+        
+        <description>Roamer Portland: &lt;br&gt;https://drinkbivo.com/blogs/news/roamer-the-best-riding-near-portland-or</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -122.6614455,45.5177904,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Riders Outpost</name>
+        
+        
+        
+        
+        <description>Waitsfield Roamer: https://drinkbivo.com/blogs/news/roamer-waitsfield-vt</description>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -72.8354032,44.1524724,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+      
+      
+      
+      
+      <Placemark>
+        
+        
+        
+        
+        <name>Thunder Mountain Bikes</name>
+        
+        
+        
+        
+        <styleUrl>#icon-1899-DB4436-labelson-nodesc</styleUrl>
+        
+        
+        
+        
+        <Point>
+          
+          
+          
+          
+          <coordinates>
+            -111.7897211,34.863256,0
+          </coordinates>
+          
+          
+        
+        
+        </Point>
+        
+        
+      
+      
+      </Placemark>
+    </Document>
+</kml>
