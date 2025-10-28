@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Points on a map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+        /* Change the entire popup background and arrow color */
+    .mapboxgl-popup-content {
+        background: #103059 ; /* Bivo dark blue */
+        color: #41D2FA;         /* Bivo Light blue */
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Make the popup arrow match the background */
+    .mapboxgl-popup-tip {
+        border-top-color: #2c3e50 !important;
+    }
+
+    /* Optional: tweak heading/link styles inside */
+    .mapboxgl-popup-content h3 {
+        margin: 0 0 5px;
+        color: #ffffff; /* white heading for contrast */
+    }
+
+    .mapboxgl-popup-content a {
+        color: gold; /* gold hyperlinks for contrast */
+        text-decoration: none;
+    }
+    .mapboxgl-popup-content a:hover {
+        text-decoration: underline;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      // The value for 'accessToken' begins with 'pk...'
+      mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmV3c3ViaWUiLCJhIjoiY21oM3ZxNHlyMGNqbTJwcTBrNmxneDd1diJ9._7vjHoFAmx1Ds2zOhXktMQ';
+      const map = new mapboxgl.Map({
+        container: 'map',
+        // Replace YOUR_STYLE_URL with your style URL.
+        style: 'mapbox://styles/andrewsubie/cmh9fhjp3001k01qr57ai1k7r',
+        center: [-87.661557, 41.893748],
+        zoom: 10.7
+      });
+      // Code from the next step will go here.
+      /*
+    Add an event listener that runs when a user clicks on the map element.
+    */
+    map.on('click', (event) => {
+  // Query only your dealer layer
+  const features = map.queryRenderedFeatures(event.point, {
+    layers: ['bivo-dealers-tset (1)'] // your actual layer name
+  });
+
+  // Stop if no features found
+  if (!features.length) return;
+
+  // 🧩 Only use the first feature, and remove any existing popup before adding a new one
+  const feature = features[0];
+  if (window.activeDealerPopup) {
+    window.activeDealerPopup.remove();
+  }
+
+  const [lng, lat] = feature.geometry.coordinates;
+
+  // Fix website URL
+  let website = feature.properties.Website;
+  if (website && !/^https?:\/\//i.test(website)) {
+    website = 'https://' + website;
+  }
+
+  const name = feature.properties.name || 'Unnamed Dealer';
+  const city = feature.properties.City || '';
+  const state = feature.properties.State || '';
+  const zip = (feature.properties.Zip || feature.properties['Zip Code'] || '').trim();
+  const websiteLink = website
+    ? `<a href="${website}" target="_blank" rel="noopener noreferrer">${website}</a>`
+    : '';
+
+  // Create popup and track it globally
+  const popup = new mapboxgl.Popup({ offset: [0, -15] }).setLngLat([lng, lat]);
+  window.activeDealerPopup = popup;
+
+  // If address exists, show it directly
+  if (feature.properties.address) {
+    popup
+      .setHTML(`
+        <h3>${name}</h3>
+        <p>${feature.properties.Address}<br>${city}, ${state} ${zip}<br>${websiteLink}</p>
+      `)
+      .addTo(map);
+    return; //stop
+  }
+
+  // Otherwise, show loading + fetch address from Mapbox
+  popup.setHTML(`<h3>${name}</h3><p>Loading address...</p>`).addTo(map);
+
+  fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${lng},${lat}.json?access_token=${mapboxgl.accessToken}`)
+    .then(response => response.json())
+    .then(data => {
+      const address = data.features?.[0]?.place_name || 'Address not found';
+      popup.setHTML(`
+        <h3>${name}</h3>
+        <p>${address}<br>${websiteLink}</p>
+      `);
+    })
+    .catch(() => {
+      popup.setHTML(`
+        <h3>${name}</h3>
+        <p>Address unavailable<br>${city}, ${state} ${zip}<br>${websiteLink}</p>
+      `);
+    });
+});
+    </script>
+  </body>
+</html>
