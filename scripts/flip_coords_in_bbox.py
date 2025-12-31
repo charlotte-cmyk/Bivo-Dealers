@@ -3,24 +3,20 @@ import requests
 import time
 from xml.dom import minidom
 
-# --- CONFIGURATION ---
+# configs
 INPUT_KML = "all_dealers_fixed3.kml"
 OUTPUT_KML = "all_dealers_fixed_selective3.kml"
 USER_AGENT = "kml-fixer/1.0 (andrew@drinkbivo.com)"
 SLEEP_BETWEEN_REQUESTS = 1
 
-# --- FLIP TARGETS ---
-# Define bounding boxes (min_lat, max_lat, min_lon, max_lon)
-# Any coordinate falling inside one of these boxes will have its lat/lon flipped.
-# Example: (30, 50, -130, -60) means within the continental US roughly
+# def bbox
 FLIP_RANGES = [
     (-15, 15, 30, 60),
 ]
 
-# --- NAMESPACE ---
 ns = {'kml': 'http://www.opengis.net/kml/2.2'}
 
-# --- GEOCODING FUNCTION ---
+#
 def nominatim_geocode(address):
     """Lookup coordinates for an address using OpenStreetMap Nominatim."""
     if not address.strip():
@@ -38,7 +34,6 @@ def nominatim_geocode(address):
         print(f"⚠️ Error geocoding '{address}': {e}")
     return None, None
 
-# --- HELPER FUNCTIONS ---
 def should_flip(lon, lat):
     """Check if this coordinate falls inside one of the defined flip ranges."""
     for (min_lat, max_lat, min_lon, max_lon) in FLIP_RANGES:
@@ -63,7 +58,6 @@ def flip_coordinate_order(coord_text):
         return f"{lat_f},{lon_f},0"
     return f"{lon_f},{lat_f},0"
 
-# --- MAIN PROCESS ---
 def main():
     print(f"Loading {INPUT_KML} ...")
     ET.register_namespace('', "http://www.opengis.net/kml/2.2")
@@ -89,7 +83,7 @@ def main():
                     print(f"🔁 Flipped coordinates for '{name}' ({lon},{lat}) → {flipped}")
                     total_flipped += 1
 
-    # --- Write KML Output ---
+    # write i/o
     rough_string = ET.tostring(root, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     with open(OUTPUT_KML, "w", encoding="utf-8") as f:
