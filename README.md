@@ -1,0 +1,35 @@
+# Bivo Dealer Map Migration to Mapbox
+**Last Updated:** 1/2/2026 Andrew Subach | <a href="andrewsubie.github.io">Contact</a>
+
+## Overview
+
+### Purpose
+
+The Bivo dealer map was previously hosted as a custom map on Google Maps, which served it's purpose well but had several limitations. These included the inability to move the map's default display center, and inability to customize the popups when clicking on a dealer location. For these reasons, I decided that it would be best to migrate the map to Mapbox, and create custom JavaScript popups to display dealer information. Additionally, the heatmap feature on Mapbox matches Bivo's water camo theme well. 
+
+### Repo Overview
+
+`geojson` - This directory contains the .geosjon files used to store the dealers as a list of points in json format specified to work with mapbox's proprietary formating. File names match dataset names in the Mapbox online dashboard. 
+
+`icons` - Contains custom point marker image files used in the map in various formats
+
+`scripts` - Contains various python utilities used in transferring/completing the data. 
+
+`.kml` files - Data exported from google maps
+
+`.html` files - Snippets for testing custom popup logic.
+
+## Adding New Dealers 
+
+1. Login to console.mymapbox.com
+2. Go to Data Manager -> Datasets
+3. Draw a point in both the bivo_dealers dataset and the appropriate subset (roamer, REI, or unique for all other dealerss). 
+4. Fill in all relevant fields (website, address, name etc.)
+
+REPEAT NEXT STEPS FOR EACH DATASET UPDATED
+
+5. Click on the three dots next to the updated datasets. 
+6. Click `Export to Tileset` in the menu. 
+7. Click `Update a Connected Tileset` to update the appropriate tileset without overwriting. 
+
+The new dealer point(s) should populate into the map within 15-30 minutes. 
