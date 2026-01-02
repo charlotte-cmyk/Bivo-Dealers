@@ -1,5 +1,5 @@
 # Bivo Dealer Map Migration to Mapbox
-**Last Updated:** 1/2/2026 Andrew Subach | <a href="andrewsubie.github.io">Contact</a>
+**Last Updated:** 1/2/2026 Andrew Subach | <a href="https://andrewsubie.github.io">Contact</a>
 
 ## Overview
 
