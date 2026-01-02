@@ -17,7 +17,9 @@ The Bivo dealer map was previously hosted as a custom map on Google Maps, which 
 
 `.kml` files - Data exported from google maps
 
-`.html` files - Snippets for testing custom popup logic.
+`mapbox_page.html` - HTML page and JS logic for popups to display the map to web users. Search for "GLOBAL SETTINGS" in this file and adjust the center coordinate and zoom level for various needs. This page can be duplicated into a different repo/hosting service in the future to make a EU-centered map when the EU is sufficiently populated with dealers. 
+
+The actual map is hosted on Andrew's personal github at https://andrewsubie.github.io/mapbox-map/. This is a temporary band-aid fix that currently has no need to be updated, as a way to circumvent Shopify's restrictions on executing inline scripts. At some point this should be changed to a more robust/secure hosting service. 
 
 ## Adding New Dealers 
 
