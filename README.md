@@ -39,3 +39,12 @@ REPEAT NEXT STEPS FOR EACH DATASET UPDATED
 7. Click `Update a Connected Tileset` to update the appropriate tileset without overwriting. 
 
 The new dealer point(s) should populate into the map within 15-30 minutes. 
+
+## Duplicating Map for Other Markets
+
+* Create a new GitHub page. See this tutorial: https://docs.github.com/en/pages/quickstart 
+'Title it bivo-map-eu' or whatever. 
+
+* Add an `index.html` file, and copy paste the contents of `mapbox_page.html`, changing the coordinates and zoom level as needed.
+
+* Add, commit and push to main. The map should populate within 10-15 minutes. 
