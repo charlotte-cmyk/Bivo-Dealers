@@ -27,6 +27,10 @@ The actual map is hosted on Andrew's personal github at https://andrewsubie.gith
 2. Go to Data Manager -> Datasets
 3. Draw a point in both the bivo_dealers dataset and the appropriate subset (roamer, REI, or unique for all other dealerss). 
 4. Fill in all relevant fields (website, address, name etc.)
+5. Set `icon-scale` and `icon-opacity` to 1
+6. Set icon to `https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png`
+7. Set styleUrl to `#icon-1899-DB4436-labelson`
+
 
 REPEAT NEXT STEPS FOR EACH DATASET UPDATED
 
