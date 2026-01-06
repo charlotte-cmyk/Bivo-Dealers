@@ -47,4 +47,32 @@ The new dealer point(s) should populate into the map within 15-30 minutes.
 
 * Add an `index.html` file, and copy paste the contents of `mapbox_page.html`, changing the coordinates and zoom level as needed.
 
-* Add, commit and push to main. The map should populate within 10-15 minutes. 
+* Add, commit and push to main. The map should populate within 10-15 minutes.
+
+### Links/Embedding Snippets to Live Maps
+
+US Map: https://bivo-git.github.io/bivo-dealer-map-us/
+
+```
+<iframe
+  src="https://bivo-git.github.io/bivo-dealer-map-us/"
+  width="100%"
+  height="600"
+  style="border:0;"
+  loading="lazy"
+  allowfullscreen>
+</iframe
+```
+EU Map: https://bivo-git.github.io/bivo-dealer-map-eu/
+
+```
+<iframe
+  src="https://bivo-git.github.io/bivo-dealer-map-eu/"
+  width="100%"
+  height="600"
+  style="border:0;"
+  loading="lazy"
+  allowfullscreen>
+</iframe
+```
+
